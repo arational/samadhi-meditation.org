@@ -1,0 +1,3 @@
+[:p
+ [:img.picture-right {:src (:image section)}]
+ "Manchmal fühlen wir uns einsam, sind verzweifelt, empfinden Hass oder Furcht. Gespräche mit einem erfahrenen buddhistischen " (link-to "lehrer.html" "Lehrer") " können helfen, diese Gefühle zu kontrollieren und den Geist zu beruhigen."]

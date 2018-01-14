@@ -1,0 +1,38 @@
+{:path "programm.html"
+ :mode :xhtml
+ :title "Programm"
+ :subtitle "Regelmäßige Termine"
+ :image "images/room2.jpg"
+ :image-height "50vw"
+ :layout "page.edn"
+ :description "Wir laden Euch herzlich ein, einen Blick in unser aktuelles Programm zu werfen. Dort findet ihr alle unsere regelmäßigen Termine: Meditation, Chanting, Vorträge, etc. Über die weiteren Veranstaltungen: Waldmeditationen, Achtsamkeitstage, Retreats und Filmvorführungen informieren wir Euch gesondert unter Events."
+ :sections [{:include "sections/newbies.edn"
+             :image "images/samiddhi.jpg"
+             :image-height "65vw"
+             :title "Einführung in die Meditation"
+             :id "newbies"}
+            {:include "sections/weekly_mindful.edn"
+             :image "images/lotus_buddha.jpg"
+             :image-height "65vw"
+             :title "Achtsam in die Wochenmitte"
+             :id "weekly_mindful"}
+            {:include "sections/vipassana.edn"
+             :image "images/vipassana.jpg"
+             :image-height "75vw"
+             :title "Vipassana (Langer Meditationsabend)"
+             :id "vipassana"}
+            {:include "sections/mindful_weekend.edn"
+             :image "images/sunrise.jpg"
+             :image-height "65vw"
+             :title "Erfrischt und achtsam ins Wochenende"
+             :id "mindful_weekend"}
+            {:include "sections/chanting.edn"
+             :image "images/chanting.jpg"
+             :image-height "65vw"
+             :title "Chanting - Buddhistische Rezitation"
+             :id "chanting"}]
+ :intro [:section
+         [:p "Liebe Freunde des Samadhi Buddhistischen Meditationszentrums,"]
+         [:p (:description *page*)]
+         [:p (link-to "flyer.pdf" "Programm 2017/18 als PDF zum Download")]]
+ :content "sections.edn"}

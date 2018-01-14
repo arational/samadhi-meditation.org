@@ -1,0 +1,5 @@
+(list
+ [:h3 "Freitags 19:00 – 21:00 Uhr"]
+ [:p
+  [:img.picture-left {:src (:image section)}]
+  "An jedem letzten Freitag im Monat meditieren wir ca. 1,5 Stunden lang (Pausen sind möglich) und schulen unsere innere Einsicht."])

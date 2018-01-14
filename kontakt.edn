@@ -1,0 +1,30 @@
+{:path "kontakt.html"
+ :mode :xhtml
+ :title "Kontakt"
+ :subtitle "Kontakt"
+ :image "images/room.jpg"
+ :image-height "50vw"
+ :layout "page.edn"
+ :description (str "Samadhi Buddhistischer Verein e.V. Bonn\n"
+                   "Gierolstraße 7\n"
+                   "53127 Bonn\n"
+                   "Tel.: 0228 92679138")
+ :intro (list
+         [:style (css [:h1 {:padding-top "25vw"}])]
+         [:p [:img.icon {:src "images/wheelchair.svg"}] "Unser Meditationszentrum befindet sich im ersten Stock und verfügt über einen Fahrstuhl für einen barrierefreien Zugang."]
+         [:h3 "Anfahrt mit öffentlichen Verkehrsmitteln"]
+         [:p
+          "Ab Bonn Hauptbahnhof mit den Linien" [:br]
+          "603, Haltestelle Buchholzstraße" [:br]
+          "602, Haltestelle Wasserturmstraße"]
+         [:h3 "Impressum"]
+         [:p
+          "Samadhi Buddhistischer Verein e.V. Bonn" [:br]
+          "Gierolstraße 7" [:br]
+          "53127 Bonn" [:br]
+          "Tel.: 0228 92679138"]
+         [:h3 "Haftungsausschluss"]
+         [:p "Die Inhalte dieser Website, werden mit größtmöglicher Sorgfalt recherchiert. Gleichwohl übernimmt der Anbieter keine Haftung für die Richtigkeit, Vollständigkeit und Aktualität der bereit gestellten Informationen."]
+         [:p "Das Landgericht Hamburg hat am 12. Mai 1998 im Urteil 312 O 85/98 „Haftung für Links“ entschieden, dass durch die Veröffentlichung eines Links auf einer Homepage die Inhalte der gelinkten Seiten mit zu verantworten sind. Das lässt sich nur verhindern, wenn man sich ausdrücklich von den Inhalten der gelinkten Seiten distanziert."]
+         [:p "Wir distanzieren uns daher von allen Inhalten, die sich hinter den oben angegebenen Links, den dahinter stehenden Servern, weiterführenden Links, Gästebüchern und sämtlichen anderen sichtbaren und nicht sichtbaren Inhalten verbergen. Sollte eine der Seiten auf den entsprechenden Servern gegen geltendes Recht verstoßen, so ist uns dieses nicht bekannt. Auf entsprechende Benachrichtigung hin werden wir selbstverständlich den Link zu dem entsprechenden Server entfernen."])
+ :content "sections.edn"}

@@ -1,0 +1,24 @@
+{:path "spenden.html"
+ :mode :xhtml
+ :title "Spenden"
+ :subtitle "Spenden und Mitgliedsbeiträge"
+ :image "images/room.jpg"
+ :image-height "50vw"
+ :layout "page.edn"
+ :description "Das Meditationszentrum finanziert sich ausschließlich durch Spenden und Mitgliedsbeiträge, daher trägt jede Spende zum Erhalt und Ausbau des Meditationszentrums bei."
+ :intro (list
+         [:style (css [:h1 {:padding-top "25vw"}])]
+         [:p (:description *page*)]
+         [:h3 "Wie wir bei Samadhi Großzügigkeit und Dankbarkeit üben"]
+         [:p "“Dana” (= Großzügigkeit) bedeutet freiwilliges Geben, das von Herzen kommt. Bhante Samiddhi teilt bei Samadhi sein tiefgreifendes Wissen über Meditation und die Lehre Buddhas unentgeltlich mit allen Teilnehmern. Dies ist Ausdruck von Mitgefühl, Großzügigkeit und Liebe. Zwischen Bhante Samiddhi und der Gemeinschaft besteht eine liebevolle Beziehung, die zu spirituellem Wachstum führt. Alle Mitglieder unterstützen das Meditationszentrum durch regelmäßige Beiträge, Spenden oder die Übernahme verschiedener Tätigkeiten und tragen so zum Wachstum und Wohlergehen der Gemeinschaft bei."]
+         [:p "Wir sind beim Finanzamt Bonn als gemeinnützig anerkannt und stellen Ihnen am Ende des Jahres auf Wunsch gerne eine Spendenbescheinigung aus."]
+         [:p "Bitte unterstützen Sie unsere Aktivitäten durch einen Beitrag oder werden Sie Mitglied in unserem Verein."]
+         [:p "Für die Mitgliedschaft füllen Sie bitte den Mitgliedsantrag aus und schicken Sie ihn uns per Post zu oder bringen sie ihn persönlich vorbei:" [:br]
+          (link-to "mitgliedsantrag.pdf" "Mitgliedsantrag als PDF")]
+         [:p [:strong "Unser Spendenkonto"] [:br]
+          "Samadhi Buddhistischer Verein e.V. Bonn" [:br]
+          "Sparkasse Köln-Bonn" [:br]
+          "IBAN DE35 3705 0198 1931 5506 00" [:br]
+          "BIC COLS DE 33"]
+         (include "paypal_button.edn"))
+ :content "sections.edn"}

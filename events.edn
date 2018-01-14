@@ -1,0 +1,14 @@
+{:path "events.html"
+ :mode :xhtml
+ :title "Events"
+ :subtitle "Events"
+ :image "images/room.jpg"
+ :image-height "50vw"
+ :layout "page.edn"
+ :description "Wir laden jeden herzlich ein an unseren Veranstaltungstagen teilzunehmen."
+ :intro [:section
+         [:p (:description *page*)]
+         [:p [:strong "Hinweis:"] " An Tagen mit besonderen Veranstaltungen fällt das regelmäßig " (link-to "programm.html" "Programm") " aus."]
+         ; TODO: RSS-feed
+         [:p (link-to "events.xml" [:img {:class "icon" :src "images/feed.svg"}]) "Um automatisch über neue Events informiert zu werden, könnt Ihr unser Web Feed abonnieren."]]
+ :content "events.edn"}

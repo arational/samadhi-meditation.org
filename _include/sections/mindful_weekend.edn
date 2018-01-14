@@ -1,0 +1,6 @@
+(list
+ [:h3 "Samstags 10:00 – 11:00 Uhr"]
+ [:p
+  [:img.picture-right {:src (:image section)}]
+  "Nach einer herausfordernden Arbeitswoche fällt es uns oftmals schwer, das Wochenende frei von belastenden Gedanken zu beginnen. Leicht geraten wir daher in unnötige Auseinandersetzungen mit unserer Familie oder unseren Freunden. In diesem Kurs lernen wir, achtsamer mit uns und unserem Umfeld umzugehen. Durch regelmäßige Meditation gelingt es uns leichter, frei von überflüssigen Gedanken und Grübeleien in den Tag zu starten. Erfrischt – wie nach einem Sommerregen – sehen wir klarer und gewinnen neue Energie für ein glücklicheres Leben ohne Einsamkeit, Stress und Sorgen." [:br] [:br]
+  "Dieser Kurs vermittelt verschiedene Formen sowie die grundlegenden Techniken der Meditation. Er ist für alle Interessierten unabhängig ihrer Religionszugehörigkeit geeignet."])

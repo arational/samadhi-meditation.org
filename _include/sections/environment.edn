@@ -1,0 +1,3 @@
+[:p
+ [:img.picture-right {:src (:image section)}]
+ "Buddha hat betont, dass es von überragender Bedeutung ist, die Umwelt für alle Lebewesen zu schützen und zu erhalten. Unser Verein setzt sich dafür ein, mehr Umweltbewusstsein zu schaffen und den Schutz der Umwelt zu fördern."]

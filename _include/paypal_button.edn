@@ -1,0 +1,18 @@
+[:form {:action "https://www.paypal.com/cgi-bin/webscr"
+        :method "POST"
+        :target "_top"}
+ [:input {:name "cmd"
+          :type "hidden"
+          :value "_s-xclick"}]
+ [:input {:name "hosted_button_id"
+          :type "hidden"
+          :value "GDVUK5Y7GUTXL"}]
+ [:input {:name "submit"
+          :type "image"
+          :alt "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+          :src "https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif"}]
+ [:img {:src "https://www.paypalobjects.com/de_DE/i/scr/pixel.gif"
+        :alt ""
+        :width "1"
+        :height "1"
+        :border "0"}]]

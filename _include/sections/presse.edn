@@ -1,0 +1,26 @@
+[:p
+ [:img.picture-right {:src (:image section)}]
+ (for [{:keys [date link title]}
+       [{:date "28.10.2016"
+         :title "Eine neue Robe für den Mönch"
+         :link "http://www.general-anzeiger-bonn.de/bonn/stadt-bonn/Eine-neue-Robe-f%C3%BCr-den-M%C3%B6nch-article3391692.html"}
+        {:date "04.05.2015"
+         :title "Meditation für die Erdbebenopfer in Nepal"
+         :link "http://www.general-anzeiger-bonn.de/bonn/bonn/ippendorf/Meditation-fuer-die-Erdbebenopfer-in-Nepal-article1624133.html"}
+        {:date "04.11.2014"
+         :title "Buddhisten feiern das Kathina-Fest"
+         :link "http://www.general-anzeiger-bonn.de/bonn/bonn/ippendorf/Buddhisten-feiern-das-Kathina-Fest-article1488826.html"}
+        {:date "05.05.2014"
+         :title "Bei der Einweihung wird der OB gesegnet"
+         :link "http://www.general-anzeiger-bonn.de/bonn/bonn/ippendorf/bei-der-einweihung-wird-der-ob-gesegnet-article1341255.html"}
+        {:date "17.11.2013"
+         :title "Buddhisten aus der Region feiern in Graurheindorf die Kathina-Zeremonie"
+         :link "http://www.general-anzeiger-bonn.de/bonn/stadt-bonn/Buddhisten-aus-der-Region-feiern-in-Graurheindorf-die-Kathina-Zeremonie-article1198155.html"}
+        {:date "13.09.2013"
+         :title "Der Buddha von Ippendorf"
+         :link "http://www.general-anzeiger-bonn.de/bonn/bonn/ippendorf/der-buddha-von-ippendorf-article1145746.html"}]]
+   (list
+    [:strong "Artikel vom " date]
+    [:br]
+    (link-to link title)
+    [:br] [:br]))]

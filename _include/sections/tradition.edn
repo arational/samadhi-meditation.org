@@ -1,0 +1,3 @@
+[:p
+ [:img.picture-left {:src (:image section)}]
+ "Buddhismus ist nicht nur eine Religion oder Philosophie sondern eine Lebensweise. Es gibt eine ganze Reihe buddhistischer Traditionen wie das Vesak-Fest im Mai, an dem Buddhas Geburtstag, Erleuchtung und Tod gefeiert werden. Oder die Kathina-Zeremonie, bei der den buddhistischen Mönchen zum Ende der Regenzeit, eine neue Robe geschenkt wird. Diese Traditionen wollen wir pflegen und feiern."]

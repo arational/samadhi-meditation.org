@@ -1,0 +1,15 @@
+(list
+ [:h3 "Meditation mit dem Mönch Bhante Samiddhi"]
+ [:p
+  [:iframe.video {:width "620"
+                  :height "349"
+                  :src "https://www.youtube.com/embed/L3waIbBFixs"
+                  :frameborder "0"
+                  :gesture "media"
+                  :allowfullscreen "true"} ""]
+  [:iframe.video {:width "620"
+                  :height "349"
+                  :src "https://www.youtube.com/embed/q17UOofUB-8"
+                  :frameborder "0"
+                  :gesture "media"
+                  :allowfullscreen "true"} ""]])

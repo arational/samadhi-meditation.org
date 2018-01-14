@@ -1,0 +1,35 @@
+{:path "index.html"
+ :mode :xhtml
+ :title "Home"
+ :subtitle "Vision"
+ :image "images/altar.jpg"
+ :image-height "60vw"
+ :layout "page.edn"
+ :description "Wir ermutigen und unterstützen alle Menschen, ihre eigene Spiritualität zu entdecken und weiterzuentwickeln. Im Einklang mit der buddhistischen Lebensweise, lehren wir wie es uns leichter gelingt, friedvoll, in Balance mit uns und unserer Umwelt, spirituell sowie materiell reich und glücklich zu leben."
+ :sections [{:include "sections/meditation.edn"
+             :image "images/meditation.jpg"
+             :image-height "60vw"
+             :title "Meditation"
+             :id "meditation"}
+            {:include "sections/tradition.edn"
+             :image "images/tradition.jpg"
+             :image-height "65vw"
+             :title "Traditionen und Veranstaltungen"
+             :id "tradition"}
+            {:include "sections/advising.edn"
+             :image "images/advising.jpg"
+             :image-height "60vw"
+             :title "Beratung und Seelsorge"
+             :id "advising"}
+            {:include "sections/peace.edn"
+             :image "images/peace.jpg"
+             :image-height "70vw"
+             :title "Sozialer Frieden"
+             :id "peace"}
+            {:include "sections/environment.edn"
+             :image "images/environment.jpg"
+             :image-height "50vw"
+             :title "Umweltbewusstsein"
+             :id "environment"}]
+ :intro [:section [:p (:description *page*)]]
+ :content "sections.edn"}

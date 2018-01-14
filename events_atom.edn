@@ -1,0 +1,5 @@
+{:path "events.xml"
+ :mode :xml
+ :title "Events"
+ :layout "atom.edn"
+ :description "Wir laden jeden herzlich ein an unseren Veranstaltungstagen teilzunehmen."}

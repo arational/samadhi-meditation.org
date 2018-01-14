@@ -1,0 +1,24 @@
+{:path "medien.html"
+ :mode :xhtml
+ :title "Medien"
+ :subtitle "Artikel"
+ :image "images/medien.jpg"
+ :image-height "30vw"
+ :layout "page.edn"
+ :description "Hier veröffentlichen wir interessante Artikel zum Thema Spiritualität, Meditation und Einsichtspraxis, unsere Bekanntgebungen im Bonner Generalanzeiger und Videos auf Youtube."
+ :sections [{:include "sections/presse.edn"
+             :image "images/general_anzeiger.jpg"
+             :image-height "50vw"
+             :title "Presse"
+             :id "presse"}
+            {:include "sections/videos.edn"
+             :image "images/videos.png"
+             :image-height "65vw"
+             :title "Videos"
+             :id "videos"}]
+ :intro (list
+         [:style (css [:h1 {:padding-top "15vw"}])]
+         [:section
+          [:p (link-to "In-der-Ruhe-liegt-die-Kraft.pdf" "[PDF] Meditation und das Gehirn: In der Ruhe liegt die Kraft")]
+          [:p (link-to "Spiritualitaet_fuer_die_Umwelt.pdf" "[PDF] Die heilende Kraft der Spiritualität für die Umwelt")]])
+ :content "sections.edn"}

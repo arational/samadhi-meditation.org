@@ -1,0 +1,20 @@
+[:rss {:version "2.0"
+       :xmlns:atom "http://www.w3.org/2005/Atom"
+       :xmlns:dc "http://purl.org/dc/elements/1.1/"}
+ [:channel
+  [:title (str (:title *site*) " - " (:title *page*))]
+  [:description (:description *page*)]
+  [:link (:url *site*) "/events.html"]
+  [:atom:link {:href (str (:url *site*) "/" (:path *page*))
+               :type "application/rss+xml"
+               :rel "self"}]
+  [:lastBuildDate (-> (sort-by :pub-date *events*)
+                      last :pub-date format-date-rfc822)]
+  (for [{:keys [id title excerpt pub-date date time]} *events*]
+    (let [link (str (:url *site*) "/events.html#" id)]
+      [:item
+       [:title title]
+       [:description (format-date date) " " time ": " (strip excerpt)]
+       [:pubDate (format-date-rfc822 pub-date)]
+       [:link link]
+       [:guid {:isPermaLink "true"} link]]))]]

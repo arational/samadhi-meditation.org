@@ -1,0 +1,11 @@
+{:title "Samadhi Meditation Center Bonn"
+ :description "TODO"
+ :url "http://www.samadhi-meditation.org"
+ :excerpt-separator "<!--more-->"
+ :menu [{:name "Home" :path "index.html"}
+        {:name "Programm" :path "programm.html"}
+        {:name "Events" :path "events.html"}
+        {:name "Lehrer" :path "lehrer.html"}
+        {:name "Medien" :path "medien.html"}
+        {:name "Spenden" :path "spenden.html"}
+        {:name "Kontakt" :path "kontakt.html"}]}

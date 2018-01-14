@@ -1,0 +1,51 @@
+(let [{:keys [sections
+              subtitle
+              image
+              image-height
+              intro]} *page*]
+  (list
+   [:section {:id "slider"}
+    [:style (css [:#slider {:background-image (url image)
+                            :height image-height}])]
+    [:div.toprow
+     [:img.logo.face-in {:src "images/logo.png"}]
+     (when sections
+       (list
+        [:ul.progress
+         [:li.current "&#9679;"]
+         (for [_ sections]
+           [:li "&#9679;"])]
+        [:ul.submenu
+         (for [{:keys [id title]} sections]
+           [:li [:a {:href (str "#" id)} title]])]))]
+    [:h2
+     [:span subtitle]
+     (when sections
+       [:span
+        [:a {:href (str "#" (:id (first sections)))} "&#9660;"]])]]
+   intro
+   (for [[{:as section
+           :keys [id title image image-height]}
+          i] (map vector sections (range))]
+     [:section {:id id}
+      (when image
+        [:style (css (at-media {:max-width "480px"}
+                               [(css-id id) [:.caption {:background-image (url image)
+                                                        :height image-height}]]))])
+      [:div.caption
+       (when image
+         [:ul.progress
+          [:li "&#9679;"]
+          (for [subsec sections]
+            (if (= (:id subsec) id)
+              [:li.current "&#9679;"]
+              [:li "&#9679;"]))])
+       [:h2
+        [:span title]
+        [:span
+         [:a {:href "#"} "&#9650;"]
+         (if-not (= id (:id (last sections)))
+           (list
+            "&nbsp;"
+            [:a {:href (str "#" (get-in sections [(inc i) :id]))} "&#9660;"]))]]]
+      (include (:include section) {:section section})])))

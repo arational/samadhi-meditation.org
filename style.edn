@@ -1,0 +1,3 @@
+{:path "style.css"
+ :mode :css
+ :content "style.edn"}

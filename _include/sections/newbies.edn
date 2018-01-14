@@ -1,0 +1,10 @@
+(list
+ [:h3 "Jeden 1. Donnerstag im Monat 19:00 – 20:00 Uhr"]
+ [:p [:img.picture-left {:src (:image section)}]
+  "Für Besucher, die zum ersten Mal kommen oder noch keine Erfahrung in Achtsamkeit-Meditation haben, bietet " (link-to "lehrer.html" "Bhante B. Samiddhi") " eine persönliche Einführung an. Er gibt einen kurzen Einblick in die Buddhistische Lehre, erläutert unterschiedliche Meditationsarten und erklärt wie wir diese Alltag üben können. Dadurch entwickeln wir Fähigkeiten wie Achtsamkeit und Bewusstsein. Wir vergrößern unser Potenzial, unangenehme Empfindungen zu erkennen, zu überwinden sowie inneren Frieden und wahres Glück zu finden."]
+ [:h3 "Termine"]
+ [:ul
+  [:li "Donnerstag, 04.01.2018"]
+  [:li "Donnerstag, 01.02.2018"]
+  [:li "Donnerstag, 01.03.2018"]
+  [:li "Donnerstag, 05.04.2018"]])

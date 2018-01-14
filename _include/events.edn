@@ -1,0 +1,54 @@
+(let [{:keys [subtitle
+              image
+              image-height
+              intro]} *page*]
+  (list
+   [:section {:id "slider"}
+    [:style (css [:#slider {:background-image (url image)
+                            :height image-height}])]
+    [:div.toprow
+     [:img.logo.face-in {:src "images/logo.png"}]
+     (when (seq *events*)
+       (list
+        [:ul.progress
+         [:li.current "&#9679;"]
+         (for [_ *events*]
+           [:li "&#9679;"])]
+        [:ul.submenu
+         (for [{:keys [id title]} *events*]
+           [:li [:a {:href (str "#" id)} title]])]))]
+    [:h2
+     [:span subtitle]
+     (when (seq *events*)
+       [:span
+        [:a {:href (str "#" (:id (first *events*)))} "&#9660;"]])]]
+   intro
+   (for [[{:as event
+           :keys [id title image image-height date time excerpt content]}
+          i] (map vector *events* (range))]
+     [:section {:id id}
+      (when image
+        [:style (css (at-media {:max-width "480px"}
+                               [(css-id id) [:.caption {:background-image (url image)
+                                                        :height image-height}]]))])
+      [:div.caption
+       (when image
+         [:ul.progress
+          [:li "&#9679;"]
+          (for [subevent *events*]
+            (if (= (:id subevent) id)
+              [:li.current "&#9679;"]
+              [:li "&#9679;"]))])
+       [:h2
+        [:span title]
+        [:span
+         [:a {:href "#"} "&#9650;"]
+         (if-not (= id (:id (last *events*)))
+           (list
+            "&nbsp;"
+            [:a {:href (str "#" (get-in *events* [(inc i) :id]))} "&#9660;"]))]]]
+      [:h3 (format-date date) " " time]
+      [:p [:img {:class (if (even? i) "picture-right" "picture-left")
+                 :src image}]
+       excerpt]
+      content])))

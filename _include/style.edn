@@ -1,0 +1,167 @@
+(list
+ [:body {:margin 0
+         :font-family :Sans-Serif
+         :background-color :#eee
+         :font-size (u/vw 1.8)
+         :font-weight 300
+         :color :#333}]
+ [:a {:color :#f45300
+      :text-decoration :none
+      :transition "color .25s ease-in-out"
+      :-moz-transition "color .25s ease-in-out"
+      :-webkit-transition "color .25s ease-in-out"}
+  [:&:hover {:color :#001857}]]
+ [:.prim {:padding 0
+          :margin 0
+          :text-decoration :underline
+          :font-size (u/vw 3)
+          :text-align :center
+          :font-weight :bold
+          :color :#e51d00
+          :display :block}]
+ [:.sec {:text-decoration :none
+         :text-align :center
+         :font-size (u/vw 1.5)
+         :display :block}]
+ [:h2 {:color :#fff
+       :background-color :#984b00
+       :opacity 0.7
+       :padding (u/em 0.5)
+       :margin 0
+       :font-weight 400
+       :letter-spacing (u/px 5)
+       :display :flex
+       :justify-content :space-between
+       :align-items :center}
+  [:a {:color :#fff}]]
+ [:h3 {:margin 0
+       :padding (u/em 0.5)
+       :padding-bottom 0
+       :color :#572b00
+       :font-weight 400}]
+ [:p {:margin-left (u/em 1)
+      :margin-right (u/em 1)
+      :line-height (u/em 1.5)}]
+ [:ul {:margin-left 0
+       :margin-right 0
+       :margin-bottom (u/em 1)
+       :margin-top (u/em 1)
+       :padding-left (u/em 1)
+       :list-style-type :circle}
+  [:li {:margin-left (u/em 1)
+        :line-height (u/em 1.5)}]]
+ [:header {:display :flex
+           :height (u/em 3)}]
+ [:section {:display :flex
+            :flex-direction :column}]
+ [:footer {:background-color :#ddd
+           :padding-top (u/em 1)
+           :padding-bottom (u/em 1)
+           :text-align :center}]
+ [:#slider {:background-size "100% auto"
+            :background-repeat :no-repeat
+            :display :flex
+            :flex-direction :column
+            :justify-content :space-between}]
+ [:.menu-toggle {:display :none}]
+ [:.toprow {:display :flex
+            :justify-content :space-between}]
+ [:.logo {:width (u/vw 10)
+          :padding (u/em 0.5)
+          :opacity 0.7
+          :height (u/vw 12)}]
+ [:.menu {:padding 0
+          :margin 0
+          :list-style :none
+          :width (u/percent 100)
+          :display :flex
+          :justify-content :space-around
+          :align-items :center
+          :color :#984b00
+          :font-size (u/vw 2)}
+  [:li {:margin 0}]
+  [:a {:padding (u/em 0.5)}]
+  [:.current [:a {:color :#001857}]]]
+ [:.progress {:padding 0
+              :margin 0
+              :list-style :none
+              :padding-top (u/em 0.5)
+              :padding-bottom (u/em 0.5)
+              :opacity 0.7
+              :color :#fff
+              :display :none
+              :flex-direction :column
+              :text-align :right}
+  [:li {:padding-right (u/em 1.5)}]
+  [:.current {:color :#f45300}]]
+ [:.submenu {:padding 0
+             :margin 0
+             :list-style :none
+             :padding-top (u/em 0.5)
+             :padding-bottom (u/em 0.5)
+             :text-align :right
+             :color :#fff
+             :opacity 0.7
+             :font-weight 400
+             :font-size (u/vw 2)}
+  [:li {:padding (u/em 0.5)
+        :padding-right (u/em 1)}]
+  [:a {:color :#fff}
+   [:&:hover {:color :#001857}]]]
+ [:.picture-right {:float :right
+                   :width (u/percent 50)
+                   :margin-left (u/em 1)
+                   :margin-bottom (u/em 1)}]
+ [:.picture-left {:float :left
+                  :width (u/percent 50)
+                  :margin-right (u/em 1)
+                  :margin-bottom (u/em 1)}]
+ [:.icon {:color :blue
+          :width (u/vw 5)
+          :float :left
+          :margin-right (u/em 1)
+          :margin-bottom (u/em 1)}]
+ (at-media
+  {:max-width (u/px 480)}
+  [:body {:font-size (u/vw 3.5)}]
+  [:header {:height (u/px 52)}]
+  [:.picture-left :.picture-right {:display :none}]
+  [:.progress {:display :inline-block}]
+  [:.submenu {:display :none}]
+  [:.caption {:background-size "100% auto"
+              :display :flex
+              :flex-direction :column
+              :justify-content :space-between}]
+  [:.menu-toggle {:width (u/em 4)
+                  :display :inline
+                  :border :none
+                  :cursor :pointer
+                  :background-color :transparent
+                  :padding (u/em 2)
+                  :background-image (url "images/menu.svg")
+                  :background-repeat :no-repeat
+                  :background-position "center center"}]
+  [:.menu {:top (u/px 75)
+           :left 0
+           :display :none
+           :position :absolute
+           :background-color :#eee
+           :width (u/px 200)
+           :box-shadow "0px 8px 16px 0px rgba(0,0,0,0.2)"
+           :z-index 1
+           :font-size (u/vw 3)}
+   [:li :a {:padding (u/em 1)}]]
+  [:.show {:display :block}]
+  [:.video {:width (u/percent 100)}]
+  [:#slider {:height (u/px 250)}]
+  [:.icon {:width (u/vw 15)}])
+ (at-keyframes
+  :fadeIn
+  [:0% {:opacity 0}]
+  [:100% {:opacity 0.7
+          :transition "opacity .25s ease-in-out"
+          :-moz-transition "opacity .25s ease-in-out"
+          :-webkit-transition "opacity .25s ease-in-out"}])
+ [:.fade-in {:-webkit-animation-name :fadeIn
+             :animation-name :fadeIn
+             :animation-duration (u/s 2)}])
