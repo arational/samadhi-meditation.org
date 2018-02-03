@@ -121,6 +121,8 @@
           :float :left
           :margin-right (u/em 1)
           :margin-bottom (u/em 1)}]
+ [:.subtitle {:font-weight :bold
+              :display :block}]
  (at-media
   {:max-width (u/px 480)}
   [:body {:font-size (u/vw 3.5)}]

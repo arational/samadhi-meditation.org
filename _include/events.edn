@@ -24,7 +24,7 @@
         [:a {:href (str "#" (:id (first *events*)))} "&#9660;"]])]]
    intro
    (for [[{:as event
-           :keys [id title image image-height date time excerpt content]}
+           :keys [id title subtitle image image-height date time excerpt content]}
           i] (map vector *events* (range))]
      [:section {:id id}
       (when image
@@ -50,5 +50,6 @@
       [:h3 (format-date date) " " time]
       [:p [:img {:class (if (even? i) "picture-right" "picture-left")
                  :src image}]
+       [:span.subtitle subtitle]
        excerpt]
       content])))

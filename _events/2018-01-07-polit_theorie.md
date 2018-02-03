@@ -1,14 +1,15 @@
 ---
 title: Politische Gedanken des Buddha
+subtitle: Vortrag
 date: 2018-02-17
 time: von 15:00 bis 16:30 Uhr
 image: images/buddha_figure2.jpg
 image_height: 100vw
 ---
-*Der Sieger sät sich Hass,*<br>
+<br> *Der Sieger sät sich Hass,*<br>
 *und der Besiegte leidet.*<br>
 *Lass Sieg und Niederlage los,*<br>
-*finde das Glück des tiefen Friedens.*<br><br>
+*finde das Glück des tiefen Friedens.*<br>
 [Dhammapada, 201](http://palikanon.com/khuddaka/dhp/dhp3.htm#Sukha)
 
 ### Spendenempfehlung für Nicht-Mitglieder

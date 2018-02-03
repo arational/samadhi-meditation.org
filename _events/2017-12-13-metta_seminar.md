@@ -1,5 +1,6 @@
 ---
 title: Innere Heilung durch Liebesmeditation (Metta)
+subtitle: Metta-Meditationsseminar
 date: 2018-01-21
 time: von 10:00 bis 15:00 Uhr
 image: images/heart_flowers.jpg

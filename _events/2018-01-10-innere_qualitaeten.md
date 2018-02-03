@@ -1,5 +1,6 @@
 ---
 title: Achtsamkeit als innere Qualität entwickeln
+subtitle: Achtsamkeitsmeditationsseminar
 date: 2018-03-11
 time: von 10:00 bis 15:00 Uhr
 image: images/standing_buddha.jpg

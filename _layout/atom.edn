@@ -10,11 +10,11 @@
                :rel "self"}]
   [:lastBuildDate (-> (sort-by :pub-date *events*)
                       last :pub-date format-date-rfc822)]
-  (for [{:keys [id title excerpt pub-date date time]} *events*]
+  (for [{:keys [id title subtitle excerpt pub-date date time]} *events*]
     (let [link (str (:url *site*) "/events.html#" id)]
       [:item
        [:title title]
-       [:description (format-date date) " " time ": " (strip excerpt)]
+       [:description subtitle ", " (format-date date) " " time ": " (strip excerpt)]
        [:pubDate (format-date-rfc822 pub-date)]
        [:link link]
        [:guid {:isPermaLink "true"} link]]))]]
