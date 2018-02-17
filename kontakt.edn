@@ -11,7 +11,6 @@
                    "Tel.: 0228 92679138")
  :intro (list
          [:style (css [:h1 {:padding-top "25vw"}])]
-         [:p [:img.icon {:src "images/wheelchair.svg"}] "Unser Meditationszentrum befindet sich im ersten Stock und verfügt über einen Fahrstuhl für einen barrierefreien Zugang."]
          [:h3 "Anfahrt mit öffentlichen Verkehrsmitteln"]
          [:p
           "Ab Bonn Hauptbahnhof mit den Linien" [:br]
