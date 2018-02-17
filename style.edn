@@ -1,3 +1,4 @@
-{:path "style.css"
+{:path "style.css.php"
  :mode :css
+ :prepend "style.php"
  :content "style.edn"}

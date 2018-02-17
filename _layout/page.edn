@@ -4,7 +4,7 @@
   [:meta {:charset "utf-8"}]
   [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
   [:meta {:name "description" :content (:description *page*)}]
-  [:link {:type "text/css" :href "style.css" :rel "stylesheet"}]
+  [:link {:type "text/css" :href "style.css.php" :rel "stylesheet"}]
   (when (= (:path *page*) "events.html")
     [:link {:title (str (:title *site*) " - Events Feed") :type "application/rss+xml" :href "events.xml" :rel "alternate"}])
   ;; TODO: why doesn't the browser render, when the tag is selfclosed?
