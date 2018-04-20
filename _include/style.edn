@@ -108,6 +108,10 @@
         :padding-right (u/em 1)}]
   [:a {:color :#fff}
    [:&:hover {:color :#001857}]]]
+ [:.picture {:width (u/percent 50)
+             :float :right
+             :margin-left (u/em 1)
+             :margin-bottom (u/em 1)}]
  [:.picture-right {:float :right
                    :width (u/percent 50)
                    :margin-left (u/em 1)
@@ -127,6 +131,9 @@
   {:max-width (u/px 480)}
   [:body {:font-size (u/vw 3.5)}]
   [:header {:height (u/px 52)}]
+  [:.picture {:width (u/percent 100)
+              :margin 0
+              :float :none}]
   [:.picture-left :.picture-right {:display :none}]
   [:.progress {:display :inline-block}]
   [:.submenu {:display :none}]
