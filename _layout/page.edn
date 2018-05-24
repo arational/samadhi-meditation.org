@@ -38,4 +38,10 @@
     "Das Meditationszentrum finanziert sich ausschließlich durch "
     (link-to "spenden.html" "Spenden und Mitgliedsbeiträge")
     ", daher trägt jede Spende zum Erhalt und Ausbau des Meditationszentrums bei:"
-    (include "paypal_button.edn")]]])
+    (include "paypal_button.edn")]
+   [:p
+    [:a {:href "kontakt.html#impressum"} "Impressum"]
+    " | "
+    [:a {:href "kontakt.html#haftungsausschluss"} "Haftungsausschluss"]
+    " | "
+    [:a {:href "kontakt.html#datenschutz"} "Datenschutz"]]]])

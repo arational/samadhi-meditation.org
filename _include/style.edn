@@ -39,6 +39,10 @@
        :padding-bottom 0
        :color :#572b00
        :font-weight 400}]
+ [:h4 {:margin 0
+       :padding (u/em 0.5)
+       :padding-bottom 0
+       :font-weight :bold}]
  [:p {:margin-left (u/em 1)
       :margin-right (u/em 1)
       :line-height (u/em 1.5)}]
