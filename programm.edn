@@ -16,6 +16,11 @@
              :image-height "65vw"
              :title "Achtsam in die Wochenmitte"
              :id "weekly_mindful"}
+            {:include "sections/letgo_class.edn"
+             :image "images/white_flower.jpg"
+             :image-height "75vw"
+             :title "Loslassen, Zufriedenheit und Nibbana"
+             :id "letgo_class"}
             {:include "sections/vipassana.edn"
              :image "images/vipassana.jpg"
              :image-height "75vw"
@@ -34,5 +39,8 @@
  :intro [:section
          [:p "Liebe Freunde des Samadhi Buddhistischen Meditationszentrums,"]
          [:p (:description *page*)]
-         [:p (link-to "flyer.pdf" "Programm 2017/18 als PDF zum Download")]]
+         [:p (link-to "flyer.pdf" "Programm 2017/18 als PDF zum Download")]
+         [:p
+          [:strong "Hinweis:"] " An Tagen mit " (link-to "events.html" "besonderen Veranstaltungen")
+          " fällt das regelmäßig Programm aus."]]
  :content "sections.edn"}
