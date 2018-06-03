@@ -1,0 +1,11 @@
+(list
+ [:h3 "Ab September jeden letzten Freitag im Monat 19:00 - 21:00 Uhr"]
+ [:p
+  [:img.picture-left {:src (:image section)}]
+  "„Wie Medizin, die eine Krankheit zum Ende führt, so führt Nibbana alles Leiden zu einem Ende“ ist ein positives Bild von Nibbana (Nirvana). In diesem Kurs lernen und üben wir Nibbana zu Lebzeit zu erfahren. "]
+ [:h3 "Termine"]
+ [:ul
+  [:li "Donnerstag, 28.09.2018"]
+  [:li "Donnerstag, 26.10.2018"]
+  [:li "Donnerstag, 20.11.2018"]
+  [:li "Donnerstag, 28.12.2018"]])
