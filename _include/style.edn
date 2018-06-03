@@ -29,7 +29,8 @@
        :padding (u/em 0.5)
        :margin 0
        :font-weight 400
-       :letter-spacing (u/px 5)
+       :font-size (u/em 1.2)
+       :letter-spacing (u/px 3)
        :display :flex
        :justify-content :space-between
        :align-items :center}
