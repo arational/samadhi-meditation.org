@@ -1,5 +1,5 @@
 (list
- [:h3 "Mittwochs und freitags 19:00 – 19:30 Uhr"]
+ [:h3 "Mittwochs und freitags 19:00 - 19:30 Uhr"]
  [:p
   [:img.picture-left {:src (:image section)}]
   "Jeweils vor den Meditationszeiten rezitieren traditionelle buddhistische Texte in der Originalsprache. Der ruhige Rhythmus des Gesangs trägt zur Entspannung von Körper und Geist bei. Viele ursprüngliche Texte des Buddha sind in der indogermanischen Sprache Pali geschrieben."])

@@ -1,5 +1,5 @@
 (list
- [:h3 "Freitags 19:00 – 21:00 Uhr"]
+ [:h3 "Freitags 19:00 - 21:00 Uhr"]
  [:p
   [:img.picture-left {:src (:image section)}]
   "An diesem Abend praktizieren wir ca. 1,5 Stunden Sitz- und Gehmeditation. Dadurch schulen wir unsere innere Einsicht."])
