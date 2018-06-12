@@ -1,7 +1,7 @@
 ---
 title: Buddhismus von der Kolonialzeit bis heute
 subtitle: Vortrag
-date: 2018-09-23
+date: 2018-09-30
 time: von 16:00 bis 18:00 Uhr
 image: images/galle.jpg
 image_height: 65vw
