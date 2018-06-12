@@ -1,11 +1,29 @@
 * DONE favicon
   CLOSED: [2017-11-19 So 00:36]
-* TODO Caching einstellen
+* DONE Caching einstellen
+  CLOSED: [2018-06-12 Di 14:15]
 * DONE SEO
   CLOSED: [2017-11-19 So 01:43]
 * DONE Barrierefreiheit
   CLOSED: [2017-11-19 So 01:43]
-* TODO Programm fuer Neue aendern
+* DONE Programm fuer Neue aendern
+  CLOSED: [2018-06-12 Di 14:15]
 ** jeden letzten Donnerstag im Monat
 ** Absatz fuer neue als eigene Section
+* TODO Kathina Zeremonie
+  DEADLINE: <2018-08-12 So>
+* TODO Mettameditation Kurse
+  DEADLINE: <2018-09-09 So>
+* TODO Achtsamkeitstag: Achtsamkeit lehrt Dankbarkeit und Vergebung
+  DEADLINE: <2018-09-09 So>
+* TODO Vortrag: Interreligiöse Aspekte der Pilgerstätten in Sri Lanka
+  DEADLINE: <2018-09-09 So>
+* TODO Vortrag: Alltag in einem buddhistischen Kloster in Sri Lanka
+  DEADLINE: <2018-12-02 So>
+* TODO Achtsamkeitstag: Sei achtsam und lass los!
+  DEADLINE: <2018-12-02 So>
+* TODO Kurs: Gehmeditation
+  DEADLINE: <2019-03-03 So>
+* TODO Vesak Zeremonie
+  DEADLINE: <2019-03-03 So>
 * TODO Google Calendar integration
