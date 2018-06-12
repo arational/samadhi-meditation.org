@@ -16,11 +16,6 @@
              :image-height "65vw"
              :title "Achtsam in die Wochenmitte"
              :id "weekly_mindful"}
-            {:include "sections/letgo_class.edn"
-             :image "images/white_flower.jpg"
-             :image-height "75vw"
-             :title "Loslassen, Zufriedenheit und Nibbana"
-             :id "letgo_class"}
             {:include "sections/vipassana.edn"
              :image "images/vipassana.jpg"
              :image-height "75vw"
