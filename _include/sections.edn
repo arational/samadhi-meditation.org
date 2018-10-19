@@ -5,19 +5,19 @@
               intro]} *page*]
   (list
    [:section {:id "slider"}
-    [:style (css [:#slider {:background-image (url image)
-                            :height image-height}])]
-    [:div.toprow
-     [:img.logo.face-in {:src "images/logo.png"}]
-     (when sections
-       (list
-        [:ul.progress
-         [:li.current "&#9679;"]
-         (for [_ sections]
-           [:li "&#9679;"])]
-        [:ul.submenu
-         (for [{:keys [id title]} sections]
-           [:li [:a {:href (str "#" id)} title]])]))]
+    (when (and image image-height)
+      [:style (css [:#slider {:background-image (url image)
+                              :height image-height}])])
+    (when sections
+      [:div.toprow
+       [:img.logo.face-in {:src "images/logo.png"}]
+       [:ul.progress
+        [:li.current "&#9679;"]
+        (for [_ sections]
+          [:li "&#9679;"])]
+       [:ul.submenu
+        (for [{:keys [id title]} sections]
+          [:li [:a {:href (str "#" id)} title]])]])
     [:h2
      [:span subtitle]
      (when sections
