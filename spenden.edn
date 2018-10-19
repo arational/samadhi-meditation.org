@@ -2,8 +2,6 @@
  :mode :xhtml
  :title "Spenden"
  :subtitle "Spenden und Mitgliedsbeiträge"
- :image "images/room.jpg"
- :image-height "50vw"
  :layout "page.edn"
  :description "Das Meditationszentrum finanziert sich ausschließlich durch Spenden und Mitgliedsbeiträge, daher trägt jede Spende zum Erhalt und Ausbau des Meditationszentrums bei."
  :intro (list
