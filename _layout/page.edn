@@ -30,8 +30,8 @@
     "Samadhi Buddhistisches Meditationszentrum" [:br]
     "Gierolstr. 7" [:br]
     "53127 Bonn" [:br]
-    "Tel.: " (tel-to "+49-228-926-791-38") [:br]
-    "Mobil: " (tel-to "+49-152-128-152-10") [:br]
+    "Tel.: " (tel-to "+49 228 926 791 38") [:br]
+    "Mobil: " (tel-to "+49 152 128 152 10") [:br]
     "E-Mail: " (mail-to "vensamiddhi@gmail.com")]
    [:p
     [:strong "„Dana“ ist eine Tugend und bedeutet freiwilliges Geben."] [:br]
