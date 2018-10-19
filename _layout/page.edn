@@ -23,7 +23,7 @@
           [:li.current link]
           [:li link])))]]
   (include (:content *page*))
-  [:footer
+  [:footer {:id "footer"}
    [:p
     [:strong "Wir sind für Sie erreichbar"] [:br]
     (link-to "lehrer.html" "Ven. B. Samiddhi") [:br]
