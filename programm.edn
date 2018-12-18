@@ -34,7 +34,7 @@
  :intro [:section
          [:p "Liebe Freunde des Samadhi Buddhistischen Meditationszentrums,"]
          [:p (:description *page*)]
-         [:p (link-to "flyer.pdf" "Programm 2017/18 als PDF zum Download")]
+         [:p (link-to "flyer_2019.pdf" "Programm 2018/19 als PDF zum Download")]
          [:p
           [:strong "Hinweis:"] " An Tagen mit " (link-to "events.html" "besonderen Veranstaltungen")
           " fällt das regelmäßig Programm aus."]]
