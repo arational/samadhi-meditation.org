@@ -1,6 +1,6 @@
 ---
 title: Achtsamkeit als wichtige Säule für ein gesundes Selbstwertgefühl
-subtitle: Achtsamkeitsseminar
+subtitle: Achtsamkeitstag
 date: 2018-09-16
 time: von 10:00 bis 15:00 Uhr
 image: images/balance.jpg
