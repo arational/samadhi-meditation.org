@@ -25,7 +25,7 @@
   (include (:content *page*))
   [:footer {:id "footer"}
    [:p
-    [:strong "Wir sind für Sie erreichbar"] [:br]
+    [:strong "Wir sind für euch erreichbar"] [:br]
     (link-to "lehrer.html" "Ven. B. Samiddhi") [:br]
     "Samadhi Buddhistisches Meditationszentrum" [:br]
     "Gierolstr. 7" [:br]
