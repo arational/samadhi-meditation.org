@@ -169,7 +169,6 @@
    [:li :a {:padding (u/em 1)}]]
   [:.show {:display :block}]
   [:.video {:width (u/percent 100)}]
-  [:#slider {:height (u/px 250)}]
   [:.icon {:width (u/vw 15)}])
  (at-keyframes
   :fadeIn

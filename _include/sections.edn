@@ -5,9 +5,10 @@
               intro]} *page*]
   (list
    [:section {:id "slider"}
-    (when (and image image-height)
+    (if (and image image-height)
       [:style (css [:#slider {:background-image (url image)
-                              :height image-height}])])
+                              :height image-height}])]
+      [:style (css [:#slider {:height :auto}])])
     (when sections
       [:div.toprow
        [:img.logo.face-in {:src "images/logo.png"}]
