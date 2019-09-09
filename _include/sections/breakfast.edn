@@ -1,0 +1,6 @@
+(list
+ [:h3 "Jeden ersten Sonntag im Monat 11:00 - 13:30 Uhr"]
+ [:p
+  [:img.picture-right {:src (:image section)}]
+  "Wir treffen uns zum gemeinsamen Frühstück, tauschen uns zu einem aktuellen Thema aus und vertiefen das Gesagte sowie unsere Beziehung zueinander in der abschließenden Meditation." [:br] [:br]
+  "Den nächsten Termin findet Ihr unter " (link-to "events.html#fruehstueck" "Events") "."])
