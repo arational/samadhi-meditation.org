@@ -30,11 +30,16 @@
              :image "images/chanting.jpg"
              :image-height "65vw"
              :title "Chanting - Buddhistische Rezitation"
-             :id "chanting"}]
+             :id "chanting"}
+            {:include "sections/breakfast.edn"
+             :image "images/breakfast.jpg"
+             :image-height "60vw"
+             :title "Frühstück und Meditation am Sonntag"
+             :id "breakfast"}]
  :intro [:section
          [:p "Liebe Freunde des Samadhi Buddhistischen Meditationszentrums,"]
          [:p (:description *page*)]
-         [:p (link-to "flyer_2019.pdf" "Programm 2018/19 als PDF zum Download")]
+         [:p (link-to "flyer_2020.pdf" "Programm 2019/20 als PDF zum Download")]
          [:p
           [:strong "Hinweis:"] " An Tagen mit " (link-to "events.html" "besonderen Veranstaltungen")
           " fällt das regelmäßig Programm aus."]]
