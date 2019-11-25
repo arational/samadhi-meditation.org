@@ -3,7 +3,7 @@
  :title "Events"
  :subtitle "Events"
  :image "images/room.jpg"
- :image-height "50vw"
+ :image-height "55vw"
  :layout "page.edn"
  :description "Wir laden jeden herzlich ein an unseren Veranstaltungstagen teilzunehmen."
  :intro [:section
