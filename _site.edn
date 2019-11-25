@@ -1,6 +1,6 @@
 {:title "Samadhi Meditation Center Bonn"
  :description "TODO"
- :url "http://www.samadhi-meditation.org"
+ :url "http://samadhi-bonn.de"
  :excerpt-separator "<!--more-->"
  :menu [{:name "Home" :path "index.html"}
         {:name "Programm" :path "programm.html"}
