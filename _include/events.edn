@@ -23,6 +23,7 @@
        [:span
         [:a {:href (str "#" (:id (first *events*)))} "&#9660;"]])]]
    intro
+   (include "calendar.edn")
    (for [[{:as event
            :keys [id title subtitle image image-height date time excerpt content]}
           i] (map vector *events* (range))]

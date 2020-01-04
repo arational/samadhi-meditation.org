@@ -8,4 +8,19 @@
         {:name "Lehrer" :path "lehrer.html"}
         {:name "Medien" :path "medien.html"}
         {:name "Spenden" :path "spenden.html"}
-        {:name "Kontakt" :path "kontakt.html"}]}
+        {:name "Kontakt" :path "kontakt.html"}]
+ :regular-events {:newbies {:title "Einführung in die Meditation"
+                            :dates (mapv date
+                                         ["2020-01-02"
+                                          "2020-02-06"
+                                          "2020-03-05"
+                                          "2020-04-02"
+                                          "2020-05-07"
+                                          "2020-06-04"])}
+                  :weekly_mindful {:title "Achtsam in die Wochenmitte"
+                                   :weekday 4}
+                  :vipassana {:title "Vipassana (Langer Meditationsabend)"
+                              :weekday 6}
+                  :mindful_weekend {:title "Erfrischt und achtsam ins Wochenende"
+                                    :weekday 7}
+                  :breakfast {:title "Frühstück und Meditation am Sonntag"}}}

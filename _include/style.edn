@@ -134,6 +134,8 @@
               :display :block
               :color :#888
               :padding-bottom (u/em 1)}]
+ [:.special {:background-color :#d0d0f0}]
+ [:.regular {:background-color :#d0f0d0}]
  (at-media
   {:max-width (u/px 480)}
   [:body {:font-size (u/vw 3.5)}]
@@ -180,3 +182,51 @@
  [:.fade-in {:-webkit-animation-name :fadeIn
              :animation-name :fadeIn
              :animation-duration (u/s 2)}])
+  ;; calendar
+  [:table.calendar {:width (u/percent 100)}]
+  [:.calendar-list {:position :relative
+                    :overflow :hidden
+                    :margin-left (u/em 1)
+                    :margin-right (u/em 1)
+                    :height (u/vw 70)}
+   [:.calendar-item {:position :absolute
+                     :top 0
+                     :width (u/percent 100)
+                     :height (u/percent 100)
+                     :overflow :hidden
+                     :margin 0}]
+   [(s/+ :input.switcher:checked :.calendar-item)
+    [:.switch-controller {:opacity 1}]]
+   [:.switch-controller {:position :absolute
+                         :left 0
+                         :top 0
+                         :z-index 1
+                         :width (u/percent 100)}]
+   [:label.prev :label.next {:cursor :pointer
+                             :position :relative
+                             :top 0
+                             :display :block
+                             :line-height (u/em 2)
+                             :font-size (u/em 1.5)}]
+   [:label.prev {:float :left}]
+   [:label.next {:float :right}]]
+  (do (s/defclass switcher)
+      [(s/+ (s/selector (s/input (switcher (s/not s/checked)))) :.calendar-item)
+       {:-webkit-transform "translateX(-100vw)"
+        :-ms-transform "translateX(-100vw)"
+        :transform "translateX(-100vw)"
+        :-webkit-transition "-webkit-transform 0.4s ease"
+        :transition "transform 0.4s ease"}])
+  [(s/- :input.switcher:checked :.calendar-item)
+   {:-webkit-transform "translateX(100vw)"
+    :-ms-transform "translateX(100vw)"
+    :transform "translateX(100vw)"}]
+  [(s/+ :input.switcher:checked :.calendar-item)
+   {:-webkit-transform "translateX(0px)"
+    :-ms-transform "translateX(0px)"
+    :transform "translateX(0px)"
+    :-webkit-transition "-webkit-transform 0.4s ease"
+    :transition "transform 0.4s ease"}]
+  [(s/+ :input.switcher:checked :.calendar-item)
+   [:.switch-controller {:-webkit-transition "opacity 1s ease 0.4s"
+                         :transition "opacity 1s ease 0.4s"}]]))
