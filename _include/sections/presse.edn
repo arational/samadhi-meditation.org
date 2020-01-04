@@ -1,7 +1,10 @@
 [:p
  [:img.picture-right {:src (:image section)}]
  (for [{:keys [date link title]}
-       [{:date "28.10.2016"
+       [{:date "28.12.2019"
+         :title "Mönch aus Ippendorf gibt Tipps für Entschleunigung"
+         :link "https://www.general-anzeiger-bonn.de/bonn/hardtberg/der-buddhistische-moench-bhante-samiddhi-ueber-innere-ruhe-in-hektischen-zeiten_aid-48031113"}
+        {:date "28.10.2016"
          :title "Eine neue Robe für den Mönch"
          :link "http://www.general-anzeiger-bonn.de/bonn/stadt-bonn/Eine-neue-Robe-f%C3%BCr-den-M%C3%B6nch-article3391692.html"}
         {:date "04.05.2015"
