@@ -1,0 +1,6 @@
+(list
+ [:p
+  [:img.picture-right {:src (:image section)}]
+  "Achtsam zu sein, können wir auf verschiedene Weise üben. In allen alten Kulturen gab es eigene Lehrschriften, mit denen sich Menschen spirituell und philosophisch beschäftigt haben. Eine wirksame, althergebrachte und klassische Methode der Achtsamkeit ist daher, sich mit heilsamen Lehrschriften auseinanderzusetzen." [:br] [:br]
+  "In diesem Buch präsentiert " (link-to "lehrer.html" "Bhante Samiddhi") " eine buddhistische Methode, die er in Sri Lanka als junger Mönch in seiner Ausbildung erlernt und praktiziert hat. Dazu gehörte, Pali-Texte auswendig zu lernen. Sie beschreiben, wie wir im Alltag durch regelmäßige Praxis achtsamer und erfüllender leben können." [:br] [:br]
+  "Mehr dazu im " (link-to "https://www.3-schaetze.de/blog/durch-heilsame-sprache-achtsam-sein-bhante-batuwangala-samiddhi/" "Interview mit Bhante B. Samiddhi auf 3-schaetze.de") "."])

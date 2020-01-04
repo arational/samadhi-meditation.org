@@ -11,6 +11,11 @@
              :image-height "50vw"
              :title "Presse"
              :id "presse"}
+            {:include "sections/mindful_speech.edn"
+             :image "images/heilsame_sprache.jpg"
+             :image-height "135vw"
+             :title "Durch heilsame Sprache achtsam sein"
+             :id "mindful_speech"}
             {:include "sections/videos.edn"
              :image "images/videos.png"
              :image-height "65vw"
