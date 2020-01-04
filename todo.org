@@ -10,20 +10,22 @@
   CLOSED: [2018-06-12 Di 14:15]
 ** jeden letzten Donnerstag im Monat
 ** Absatz fuer neue als eigene Section
-* TODO Kathina Zeremonie
-  DEADLINE: <2018-08-12 So>
-* TODO Mettameditation Kurse
-  DEADLINE: <2018-09-09 So>
-* TODO Achtsamkeitstag: Achtsamkeit lehrt Dankbarkeit und Vergebung
-  DEADLINE: <2018-09-09 So>
-* TODO Vortrag: Interreligiöse Aspekte der Pilgerstätten in Sri Lanka
-  DEADLINE: <2018-09-09 So>
-* TODO Vortrag: Alltag in einem buddhistischen Kloster in Sri Lanka
-  DEADLINE: <2018-12-02 So>
-* TODO Achtsamkeitstag: Sei achtsam und lass los!
-  DEADLINE: <2018-12-02 So>
-* TODO Kurs: Gehmeditation
-  DEADLINE: <2019-03-03 So>
-* TODO Vesak Zeremonie
-  DEADLINE: <2019-03-03 So>
+* DONE Kathina Zeremonie
+  CLOSED: [2019-12-29 So 15:30] DEADLINE: <2018-08-12 So>
+* DONE Mettameditation Kurse
+  CLOSED: [2019-12-29 So 15:30] DEADLINE: <2018-09-09 So>
+* DONE Achtsamkeitstag: Achtsamkeit lehrt Dankbarkeit und Vergebung
+  CLOSED: [2019-12-29 So 15:30] DEADLINE: <2018-09-09 So>
+* DONE Vortrag: Interreligiöse Aspekte der Pilgerstätten in Sri Lanka
+  CLOSED: [2019-12-29 So 15:30] DEADLINE: <2018-09-09 So>
+* DONE Vortrag: Alltag in einem buddhistischen Kloster in Sri Lanka
+  CLOSED: [2019-12-29 So 15:30] DEADLINE: <2018-12-02 So>
+* DONE Achtsamkeitstag: Sei achtsam und lass los!
+  CLOSED: [2019-12-29 So 15:30] DEADLINE: <2018-12-02 So>
+* DONE Kurs: Gehmeditation
+  CLOSED: [2019-12-29 So 15:30] DEADLINE: <2019-03-03 So>
+* DONE Vesak Zeremonie
+  CLOSED: [2019-12-29 So 15:30] DEADLINE: <2019-03-03 So>
+* TODO samadhi-meditation.org umziehen
+* TODO Nächstes gemeinsames Frühstück
 * TODO Google Calendar integration
