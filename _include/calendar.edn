@@ -1,0 +1,58 @@
+(let [today (now)
+      begin (first-of-month today)
+      days-per-week 7
+      weeks-per-month 5
+      months 6]
+  (list
+   [:h3 "Kalenderübersicht mit allen "
+    [:span.regular
+     "regelmäßige Terminen"] " und "
+    [:span.special
+     "Events"]]
+   [:div {:class "calendar-list"}
+    (for [[i month] (map (fn [i] [i (months-after begin i)])
+                         (range months))]
+      (list
+       [:input (cond-> {:class "switcher"
+                        :type "radio"
+                        :name "switcher-group"
+                        :id (str "switcher" i)}
+                 (zero? i) (assoc :checked "true"))]
+       [:div {:class "calendar-item"}
+        [:p (format-month month)]
+        [:table {:class "calendar"}
+         [:tr (map (partial vector :th)
+                   ["Mo" "Di" "Mi" "Do" "Fr" "Sa" "So"])]
+         (for [week (take-while
+                     (fn [week]
+                       (or (before? week month)
+                           (= (month-of-year week) (month-of-year month))))
+                     (map (partial weeks-after (first-of-week month)) (range)))]
+           [:tr
+            (for [day (map (partial days-after week) (range days-per-week))]
+              [:td (when-not (= (month-of-year day) (month-of-year month))
+                     {:class "blurred"})
+               (if-let [[id type]
+                        (or (some (fn [{:keys [id date]}]
+                                    (when (same-date? date day)
+                                      [(name id) :special]))
+                                  *events*)
+                            (some (fn [[id {:keys [dates weekday]}]]
+                                    (when (or (some (fn [d] (same-date? d day)) dates)
+                                              (= weekday (day-of-week day)))
+                                      [(name id) :regular]))
+                                  (:regular-events *site*)))]
+                 [:a {:href (str (case type
+                                   :special "events.html#"
+                                   :regular "programm.html#")
+                                 id)
+                      :class (name type)}
+                  (str (day-of-month day))]
+                 (str (day-of-month day)))])])]
+        [:div.switch-controller
+         (when-not (zero? i)
+           [:label {:class "prev"
+                    :for (str "switcher" (dec i))} "◀"])
+         (when (< i (dec months))
+           [:label {:class "next"
+                    :for (str "switcher" (inc i))} "▶"])]]))]))
