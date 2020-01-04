@@ -6,17 +6,21 @@
   [:meta {:name "description" :content (:description *page*)}]
   [:link {:type "text/css" :href "style.css.php" :rel "stylesheet"}]
   (when (= (:path *page*) "events.html")
-    [:link {:title (str (:title *site*) " - Events Feed") :type "application/rss+xml" :href "events.xml" :rel "alternate"}])
-  ;; TODO: why doesn't the browser render, when the tag is selfclosed?
-  [:script {:src "script.js"} ""]]
+    [:link {:title (str (:title *site*) " - Events Feed") :type "application/rss+xml" :href "events.xml" :rel "alternate"}])]
  [:body
   [:div
    [:span.prim "Samadhi Buddhistisches Meditationszentrum"]
    [:span.sec "Bonn"]]
   [:header
-   [:button {:class "menu-toggle"
-             :onclick "toggleMenu()"} ""]
-   [:ul#menu.menu
+   [:input {:type "checkbox"
+            :class "menu-toggle"
+            :id "menu-toggle"}]
+   [:label {:for "menu-toggle"
+            :class "menu-toggle-button"}
+    [:div.spinner.diagonal.part1 ""]
+    [:div.spinner.horizontal ""]
+    [:div.spinner.diagonal.part2 ""]]
+   [:ul#menu
     (for [{:keys [path name]} (:menu *site*)]
       (let [link (link-to path name)]
         (if (= path (:path *page*))

@@ -1,4 +1,5 @@
 (list
+ ;; general
  [:body {:margin 0
          :font-family :Sans-Serif
          :background-color :#eee
@@ -65,28 +66,18 @@
            :text-align :center}]
  [:#slider {:background-size "100% auto"
             :background-repeat :no-repeat
+            :box-shadow "0px 5px 10px #808080"
             :display :flex
             :flex-direction :column
             :justify-content :space-between}]
- [:.menu-toggle {:display :none}]
+ [:.menu-toggle {:display :none
+                 :transition "all 0.3s"}]
  [:.toprow {:display :flex
             :justify-content :space-between}]
  [:.logo {:width (u/vw 10)
           :padding (u/em 0.5)
           :opacity 0.7
           :height (u/vw 12)}]
- [:.menu {:padding 0
-          :margin 0
-          :list-style :none
-          :width (u/percent 100)
-          :display :flex
-          :justify-content :space-around
-          :align-items :center
-          :color :#984b00
-          :font-size (u/vw 2)}
-  [:li {:margin 0}]
-  [:a {:padding (u/em 0.5)}]
-  [:.current [:a {:color :#001857}]]]
  [:.progress {:padding 0
               :margin 0
               :list-style :none
@@ -136,10 +127,57 @@
               :padding-bottom (u/em 1)}]
  [:.special {:background-color :#d0d0f0}]
  [:.regular {:background-color :#d0f0d0}]
+
+ ;; mainmenu
+ [:#menu {:padding 0
+          :margin 0
+          :list-style :none
+          :width (u/percent 100)
+          :display :flex
+          :justify-content :space-around
+          :align-items :center
+          :color :#984b00
+          :font-size (u/vw 2)}
+  [:li {:margin 0
+        :cursor :pointer}]
+  [:a {:padding (u/em 0.5)}]
+  [:.current [:a {:color :#001857}]]]
+
+ ;; calendar
+ [:table.calendar {:border-collapse :collapse
+                   :width (u/vw 29)
+                   :line-height (u/em 2)}
+  [:td.blurred {:color :#919191}
+   [:a {:color :#f1a177}]]
+  [:td.today {:font-weight :bold
+              :text-decoration :underline}]
+  [:td :th {:border "1px solid #333"
+            :text-align :center
+            :padding 0}
+   [:a {:display :flex
+        :align-items :center
+        :justify-content :center
+        :width (u/percent 100)
+        :height (u/percent 100)}]]
+  [:tr:first-child
+   [:th {:border-top 0}]]
+  [:tr:last-child
+   [:td {:border-bottom 0}]]
+  [:tr
+   [:td:first-child :th:first-child {:border-left 0}]
+   [:td:last-child :th:last-child {:border-right 0}]]]
+ [:.calendar-list {:display :flex
+                   :flex-wrap :wrap}
+  [:.calendar-item {:margin (u/em 1)}
+   [:p {:text-align :center}]]
+  [:input.switcher :label.prev :label.next {:display :none}]]
+
  (at-media
   {:max-width (u/px 480)}
+
+  ;; general
   [:body {:font-size (u/vw 3.5)}]
-  [:header {:height (u/px 52)}]
+  [:header {:height (u/vw 13)}]
   [:.picture {:width (u/percent 100)
               :margin 0
               :float :none}]
@@ -147,41 +185,74 @@
   [:.progress {:display :inline-block}]
   [:.submenu {:display :none}]
   [:.caption {:background-size "100% auto"
+              :box-shadow "0px 0px 15px"
               :display :flex
               :flex-direction :column
               :justify-content :space-between}]
-  [:.menu-toggle {:width (u/em 4)
-                  :display :inline
-                  :border :none
-                  :cursor :pointer
-                  :background-color :transparent
-                  :padding (u/em 2)
-                  :background-image (url "images/menu.svg")
-                  :background-repeat :no-repeat
-                  :background-position "center center"}]
-  [:.menu {:top (u/px 75)
-           :left 0
-           :display :none
+  [(s/- :input.menu-toggle:checked :#menu) {:transform "translateX(0)"
+                                            :opacity 1}]
+
+  ;; mainmenu
+  [:.menu-toggle-button {:transition "all 0.3s"
+                         :top (u/vw 8)
+                         :left (u/vw 3)
+                         :position :absolute
+                         :width (u/vw 10)
+                         :box-sizing :border-box
+                         :border :none
+                         :cursor :pointer
+                         :background-color :transparent}
+   [:.spinner {:transition "all 0.3s"
+               :box-sizing :border-box
+               :position :absolute
+               :height (u/vw 1)
+               :width (u/percent 100)
+               :background-color :#333}]
+   [:.horizontal {:position :relative
+                  :float :left
+                  :margin-top (u/vw 1)}]
+   [:.diagonal.part1 {:position :relative
+                      :float :left}]
+   [:.diagonal.part2 {:position :relative
+                      :float :left
+                      :margin-top (u/vw 1)}]]
+  [(s/- :input.menu-toggle:checked :.menu-toggle-button)
+   [(s/> :.horizontal)
+    {:transition "all 0.3s"
+     :box-sizing :border-box
+     :opacity 0}]]
+  [(s/- :input.menu-toggle:checked :.menu-toggle-button)
+   [(s/> :.diagonal.part1)
+    {:transition "all 0.3s"
+     :box-sizing :border-box
+     :transform "rotate(135deg)"
+     :margin-top (u/vw 2)}]]
+  [(s/- :input.menu-toggle:checked :.menu-toggle-button)
+   [(s/> :.diagonal.part2)
+    {:transition "all 0.3s"
+     :box-sizing :border-box
+     :transform "rotate(-135deg)"
+     :margin-top (u/vw -3)}]]
+  [:#menu {:left 0
+           :top (u/vw 17.5)
            :position :absolute
+           :transform "translateX(-100vw)"
+           :transition "all 0.25s ease"
+           :opacity 0
            :background-color :#eee
-           :width (u/px 200)
-           :box-shadow "0px 8px 16px 0px rgba(0,0,0,0.2)"
-           :z-index 1
-           :font-size (u/vw 3)}
-   [:li :a {:padding (u/em 1)}]]
+           :box-shadow "0px 5px 8px"
+           :font-size (u/em 2)
+           :flex-direction :column
+           :justify-content :space-around
+           :align-items :flex-start
+           :z-index 1}
+   [:li {:display :inherit
+         :width (u/percent 100)}]
+   [:a {:width (u/percent 100)}]]
   [:.show {:display :block}]
   [:.video {:width (u/percent 100)}]
-  [:.icon {:width (u/vw 15)}])
- (at-keyframes
-  :fadeIn
-  [:0% {:opacity 0}]
-  [:100% {:opacity 0.7
-          :transition "opacity .25s ease-in-out"
-          :-moz-transition "opacity .25s ease-in-out"
-          :-webkit-transition "opacity .25s ease-in-out"}])
- [:.fade-in {:-webkit-animation-name :fadeIn
-             :animation-name :fadeIn
-             :animation-duration (u/s 2)}])
+  [:.icon {:width (u/vw 15)}]
+
   ;; calendar
   [:table.calendar {:width (u/percent 100)}]
   [:.calendar-list {:position :relative
