@@ -21,5 +21,12 @@ lernen, wie wir unsere innere Kapazität entwickeln können, mit allen Situation
 - **14:00** Gemeinsame Diskussion / Austausch zum Thema
 - **15:00** Ende der Veranstaltung mit Kaffee und Kuchen
 
+### Anmeldung
+Wir reservieren Euch gerne einen Platz in unserem Seminar. Dazu meldet
+Euch bitte verbindlich an, indem ihr 10 Euro auf das Vereinskonto
+überweist und das Stichwort **„Achtsamkeitstag/Ablehnen und
+Akzeptieren“** angebt. Sobald die Zahlung auf dem Konto eingegangen
+ist, seid ihr fest angemeldet.
+
 ### Spendenempfehlung für Nicht-Mitglieder
 Fühlt euch frei einen für euch angemessenen Betrag zu spenden.  Die Spendenempfehlung beträgt ca. 25 Euro.  Bitte bei Überweisung auf das Vereinskonto das Stichwort **„Achtsamkeitstag / Ablehnen und Akzeptieren“** angeben oder spendet vor Ort im Zentrum.  Alle Spendeninformationen findet Ihr unter der Seite [„Spenden“](spenden.html).
