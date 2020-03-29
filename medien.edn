@@ -24,6 +24,7 @@
  :intro (list
          [:style (css [:h1 {:padding-top "15vw"}])]
          [:section
+          [:p (link-to "umweltfreundliche_gewohnheiten.pdf" "[PDF] Selbstprüfung im Hinblick auf umweltfreundliche Gewohnheiten")]
           [:p (link-to "meditationsanleitungen.pdf" "[PDF] Meditationsanleitungen")]
           [:p (link-to "In-der-Ruhe-liegt-die-Kraft.pdf" "[PDF] Meditation und das Gehirn: In der Ruhe liegt die Kraft")]
           [:p (link-to "Spiritualitaet_fuer_die_Umwelt.pdf" "[PDF] Die heilende Kraft der Spiritualität für die Umwelt")]])
