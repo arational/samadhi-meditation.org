@@ -24,6 +24,13 @@
  :intro (list
          [:style (css [:h1 {:padding-top "15vw"}])]
          [:section
+          [:p (link-to "befreiende_kraft_der_spiritualitaet.pdf" "[PDF] Die befreiende Kraft der Spiritualität") [:br]
+           "Wir alle möchten frei sein. Denn in Freiheit können wir
+unser Glück erlangen. Doch diese Freiheit lässt sich nicht von Außen
+erlangen und ist längst kein Geburtsrecht. Es ist die Freiheit in
+uns. Wir erreichen sie durch die Überwindung unserer eigenen
+belastenden Bürden und Hürden. Das bedeutet, zu lernen, uns um uns
+selbst zu kümmern."]
           [:p (link-to "umweltfreundliche_gewohnheiten.pdf" "[PDF] Selbstprüfung im Hinblick auf umweltfreundliche Gewohnheiten")]
           [:p (link-to "meditationsanleitungen.pdf" "[PDF] Meditationsanleitungen")]
           [:p (link-to "In-der-Ruhe-liegt-die-Kraft.pdf" "[PDF] Meditation und das Gehirn: In der Ruhe liegt die Kraft")]
