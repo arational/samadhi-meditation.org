@@ -45,6 +45,7 @@
          [:p "Liebe Freunde des Samadhi Buddhistischen Meditationszentrums,"]
          [:p (:description *page*)]
          [:p (link-to "flyer_2020.pdf" "Programm 2019/20 als PDF zum Download")]
+         (include "covid19.edn")
          [:p
           [:strong "Hinweis:"] " An Tagen mit " (link-to "events.html" "besonderen Veranstaltungen")
           " fällt das regelmäßig Programm aus."]
