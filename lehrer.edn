@@ -14,10 +14,11 @@
           [:p "Seit 2012 ist Bhante Samiddhi in Deutschland und hat 2014 das Samadhi Buddhistische Meditationszentrum in Bonn-Ippendorf gegründet."]
           [:p "„Samadhi“ unterstützt alle Menschen, ein spirituell und materiell glückliches Leben zu führen. Es bietet allen Interessierten die Chance, unabhängig von Nationalität, Religionszugehörigkeit oder Kultur die eigene Spiritualität zu entdecken und weiterzuentwickeln. Dieser Grundsatz basiert auf der Lehre Buddhas, der stets Mitgefühl und Herzensgüte gegenüber allen Menschen zeigte, unabhängig von ihrer Herkunft und ihrem Glauben. Unter der Leitung des Theravadamönchs Bhante Samiddhi engagiert sich das Zentrum auch auf kultureller und sozialer Ebene sowie im Bereich des Umweltschutzes."]
           [:h3 "Persönliche Termine"]
-          [:p [:strong "Montags von 9:00 – 12:00 Uhr"] " kannst du persönliche Anliegen besprechen, wie z. B."]
+          [:p [:strong "Montags von 9:00 – 12:00 Uhr"] " können Sie persönliche Anliegen besprechen, wie z. B."]
           [:ul
            [:li "Fragen zur Meditation (Einführung, Technik, auftretende Schwierigkeiten)"]
            [:li "Beratung zu den Herausforderungen des Alltags"]
            [:li "Beratung zu spirituellen Fragen"]]
-          [:p "Bitte vereinbare vorab " (tel-to "+49-228-926-791-38" "telefonisch") " oder per " (mail-to "vensamiddhi@gmail.com" "E-Mail") " einen Termin mit ihm."]])
+          [:p "Bitte vereinbaren Sie vorab " (tel-to "+49-228-926-791-38" "telefonisch") " oder per " (mail-to "vensamiddhi@gmail.com" "E-Mail") " einen Termin mit ihm."]
+          [:p "Darüberhinaus bietet B. Samiddhi persönliche Termine zum Thema " (link-to "programm.html#coaching" "Spirituelle Beratung, Coaching und Sinnsuche") " an."]])
  :content "sections.edn"}

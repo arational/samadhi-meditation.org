@@ -17,6 +17,7 @@
                                           "2020-10-01"
                                           "2020-11-05"
                                           "2020-12-03"])}
+                  :coaching {:title "Spirituelle Beratung, Coaching und Sinnsuche"}
                   :weekly_mindful {:title "Achtsam in die Wochenmitte"
                                    :weekday 4}
                   :vipassana {:title "Vipassana (Langer Meditationsabend)"
