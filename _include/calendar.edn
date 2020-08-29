@@ -33,8 +33,11 @@
               [:td (when-not (= (month-of-year day) (month-of-year month))
                      {:class "blurred"})
                (if-let [[id type]
-                        (or (some (fn [{:keys [id date]}]
-                                    (when (same-date? date day)
+                        (or (some (fn [{:keys [id date dates]}]
+                                    (when (or (same-date? date day)
+                                              (some (fn [date]
+                                                      (same-date? date day))
+                                                    (rest dates)))
                                       [(name id) :special]))
                                   *events*)
                             (some (fn [[id {:keys [dates weekday]}]]
