@@ -1,5 +1,5 @@
 (list
- [:p [:img {:class "icon" :src "images/warn.png"}] "Aufgrund der Maßnahmen zur Eindemmung der Ausbreitung des " (link-to "https://www.google.com/search?q=covid+19" "Coronaviruses") " darf mit Einhaltung der Schutzauflagen, laut aktueller " (link-to "https://www.land.nrw/sites/default/files/asset/document/2020-05-29_fassung_coronaschvo_ab_30.05.2020.pdf" "Coronaschutzverordnung CoronaSchVO (Stand: 30.05.2020)") ", unser Zentrum nicht mehr als insgesamt 10 Leute gleichzeitig aufnehmen, daher bitten wir Euch für Eurer kommen anzumelden. Die Kontaktdaten findet ihr " (link-to "#footer" "am Ende der Seite") ". Aktuelle Neuigkeiten findet ihr auf der " (link-to "https://www.land.nrw/corona" "Homepage des Landes NRW") ". " (link-to "lehrer.html" "Bhante Samiddhi") " bietet für folgende Termine Videokonferenzen über " (link-to "https://zoom.us" "Zoom") " an:"]
+ [:p (link-to "lehrer.html" "Bhante Samiddhi") " bietet für folgende Termine Videokonferenzen über " (link-to "https://zoom.us" "Zoom") " an:"]
  [:ul
   [:li "Meditation am Dienstag von 9:00 bis 9:30 Uhr."]
   [:li "Meditation am Mittwoch von 19:00 bis 20:00 Uhr - " (link-to "programm.html#weekly_mindful" "Achtsam in die Wochenmitte") "."]
