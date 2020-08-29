@@ -1,0 +1,22 @@
+(list
+ [:h3 "Täglich zwischen 9:00 und 19:00 Uhr sind Termine möglich"]
+ [:p [:img.picture-left {:src (:image section)}]
+  "Wohlbefinden, Vertrauen, Zufriedenheit und Befreiung sind Ziele der klassischen buddhistischen Lebensphilosophie. Um diese zu erreichen, benötigen wir die Fähigkeit, achtsam mit Gedanken, Emotionen, Gewohnheiten und Handlungen umzugehen."
+  [:br] [:br]
+  "Im alltäglichen Leben bewegen wir uns häufig zwischen Sieg und Niederlage, Wertschätzung und Ablehnung, Beleidigung und Lob, Freude und Schmerz. Je mehr wir uns dessen bewusst sind, umso leichter lindern wir Kummer und Sorgen. Der wichtigste Aspekt buddhistischer spiritueller Beratung und Sinnsuche ist daher, unter unsere Schutzschicht zu blicken, sodass wir unsere wahren Talente zum Vorschein bringen können."
+  [:br] [:br]
+  "Buddhistische Beratung und Sinnsuche ist nicht nur für Menschen geeignet, die sich in einer schwierigen Lebensphase befinden, sondern für alle Menschen, die die Botschaft der heilsamen Lehre in ihrem Inneren verankern möchten. Sie ermöglicht uns, den Geist zu beruhigen, das Herz zu öffnen und uns selbst von inneren Verletzungen zu heilen."
+  [:br] [:br]
+  "In einem persönlichen Gespräch erhalten Sie hilfreiche Hinweise, wie Sie Ihr positives Potential entdecken, stärken und besser nutzen können. Sie werden neue Möglichkeiten kennenlernen, die Ihnen helfen, die täglichen Herausforderungen besser zu meistern. Zugleich lernen Sie durch unterschiedliche Arten der Meditation, Warmherzigkeit zu spüren, innere Freiheit und Frieden zu erlangen."]
+ [:h3 "Unser Angebot für Sie"]
+ [:ul
+  [:li "Beratung zu Meditation und Achtsamkeitsübungen."]
+  [:li "Unterstützendes Coaching zur Persönlichkeitsentwicklung."]
+  [:li "Beratung zu den Herausforderungen des Alltags (Familie, Beziehung, Ängste, Einsamkeit, Verlust usw.)."]
+  [:li "Seelsorge zu spirituellen Fragen."]]
+ [:h3 "Termine"]
+ [:p
+  "Täglich von 9:00 bis 19:00 Uhr." [:br]
+  "Bitte vereinbaren Sie vorab telefonisch oder per Email einen Termin. Die Kontaktdaten finden Sie am " (link-to "#footer" "Ende der Seite") "."]
+ [:h3 "Spende"]
+ [:p "Die Spendenempfehlung beträgt pro Termin etwa 30 Euro. Wir freuen uns, wenn Sie das Meditationszentrum zusätzlich unterstützen. Alle Spendeninformationen findet Ihr unter der Seite " (link-to "spenden.html" "Spenden") "."])
