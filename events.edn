@@ -9,7 +9,6 @@
  :intro [:section
          [:p (:description *page*)]
          (include "covid19.edn")
-         [:p [:strong "Hinweis:"] " An Tagen mit besonderen Veranstaltungen fällt das regelmäßig " (link-to "programm.html" "Programm") " aus."]
          ; TODO: RSS-feed
          [:p (link-to "events.xml" [:img {:class "icon" :src "images/feed.svg"}]) "Um automatisch über neue Events informiert zu werden, könnt Ihr unser Web Feed abonnieren."]]
  :content "events.edn"}
