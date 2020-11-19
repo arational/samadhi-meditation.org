@@ -10,8 +10,7 @@
                          coaching
                          weekly_mindful
                          vipassana
-                         mindful_weekend
-                         breakfast]} (:regular-events *site*)]
+                         mindful_weekend]} (:regular-events *site*)]
              [{:include "sections/newbies.edn"
                :image "images/samiddhi.jpg"
                :image-height "65vw"
@@ -41,12 +40,7 @@
                :image "images/chanting.jpg"
                :image-height "65vw"
                :title "Chanting - Buddhistische Rezitation"
-               :id "chanting"}
-              {:include "sections/breakfast.edn"
-               :image "images/breakfast.jpg"
-               :image-height "60vw"
-               :title (:title breakfast)
-               :id "breakfast"}])
+               :id "chanting"}])
  :intro [:section
          [:p "Liebe Freunde des Samadhi Buddhistischen Meditationszentrums,"]
          [:p (:description *page*)]
