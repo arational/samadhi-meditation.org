@@ -11,12 +11,11 @@
         {:name "Kontakt" :path "kontakt.html"}]
  :regular-events {:newbies {:title "Einführung in die Meditation"
                             :dates (mapv date
-                                         ["2020-07-02"
-                                          "2020-08-06"
-                                          "2020-09-03"
-                                          "2020-10-01"
-                                          "2020-11-05"
-                                          "2020-12-03"])}
+                                         ["2020-11-05"
+                                          "2020-12-03"
+                                          "2021-01-07"
+                                          "2021-02-04"
+                                          "2021-03-04"])}
                   :coaching {:title "Spirituelle Beratung, Coaching und Sinnsuche"}
                   :weekly_mindful {:title "Achtsam in die Wochenmitte"
                                    :weekday 4}
