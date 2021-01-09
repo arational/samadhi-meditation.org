@@ -13,7 +13,7 @@
           [:p "Bhante Samiddhi ist offen, aufgeschlossen und flexibel. Er akzeptiert und respektiert die verschiedenen Religionen und Kulturen. Ebenso wie Buddha hinterfragt er Dinge und Sachverhalte, bevor er sie als gegeben annimmt und empfiehlt auch seinen Schüler, nichts ungeprüft zu übernehmen. Als spiritueller Lehrer rät er zu Gelassenheit im Umgang mit schwierigen Situationen und glücklichen Momenten. Er lehrt und ermutigt die Menschen mit ruhigem, unerschütterlichem Geist zu leben."]
           [:p "Seit 2012 ist Bhante Samiddhi in Deutschland und hat 2014 das Samadhi Buddhistische Meditationszentrum in Bonn-Ippendorf gegründet."]
           [:p "„Samadhi“ unterstützt alle Menschen, ein spirituell und materiell glückliches Leben zu führen. Es bietet allen Interessierten die Chance, unabhängig von Nationalität, Religionszugehörigkeit oder Kultur die eigene Spiritualität zu entdecken und weiterzuentwickeln. Dieser Grundsatz basiert auf der Lehre Buddhas, der stets Mitgefühl und Herzensgüte gegenüber allen Menschen zeigte, unabhängig von ihrer Herkunft und ihrem Glauben. Unter der Leitung des Theravadamönchs Bhante Samiddhi engagiert sich das Zentrum auch auf kultureller und sozialer Ebene sowie im Bereich des Umweltschutzes."]
-          [:h3 "Persönliche Termine"]
+          [:h3#personal_appointments "Persönliche Termine"]
           [:p [:strong "Montags von 9:00 – 12:00 Uhr"] " können Sie persönliche Anliegen besprechen, wie z. B."]
           [:ul
            [:li "Fragen zur Meditation (Einführung, Technik, auftretende Schwierigkeiten)"]
