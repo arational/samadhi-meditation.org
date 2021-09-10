@@ -1,5 +1,5 @@
 (list
- [:h3 "Mittwochs 19:00 - 20:30 Uhr"]
+ [:h3 "Mittwochs 19:00 - 20:00 Uhr"]
  [:p
   [:img.picture-right {:src (:image section)}]
   "Während der Woche verlieren wir gelegentlich unsere Achtsamkeit und Konzentration auf den aktuellen Augenblick. Zu viele Herausforderungen müssen wir während des täglichen Lebens meistern. Eine kurze Auszeit lässt uns den Alltagsstress vergessen und neue Energie schöpfen. Wir werden still und sind ganz im gegenwärtigen Moment." [:br] [:br]

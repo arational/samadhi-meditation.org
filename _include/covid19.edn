@@ -1,10 +1,10 @@
 (list
- [:p "Vor dem Hintergrund der aktuellen Situation und der Verlängerung des Lockdown, haben wir entschieden, die " (link-to "programm.html" "regelmäßigen Meditationen") " überwiegend online anzubieten. "
-  (link-to "lehrer.html" "Bhante Samiddhi") " bietet für folgende Termine Videokonferenzen über " (link-to "https://zoom.us" "Zoom") " an:"]
+ [:p
+  "Ihr seit in unserem " (link-to "kontakt.html" "Meditationszentrum in Ippendorf")" herzlich willkommen. " (link-to "lehrer.html" "Bhante Samiddhi") " bietet für folgende Termine Videokonferenzen über " (link-to "https://zoom.us" "Zoom") " an:"]
  [:ul
   [:li "Meditation am Mittwoch von 19:00 bis 20:00 Uhr - " (link-to "programm.html#weekly_mindful" "Achtsam in die Wochenmitte") "."]
   [:li "Meditation am Freitag von 19:00 bis 20:00 Uhr"]
   [:li "Meditation am Samstag von 10:00 bis 11:00 Uhr - " (link-to "programm.html#mindful_weekend" "Erfrischt und achtsam ins Wochenende") "."]]
  [:p "Bitte meldet euch dazu gesondert per " (mail-to "vensamiddhi@gmail.com" "E-Mail") " an, um eine Einladung zu erhalten."]
- [:p "Darüber hinaus darf ein Haushalt nach vorhergehender Anmeldung an der Meditation im Zentrum teilnehmen. Des weiteren besteht auch die Möglichkeit, einen Termin für ein " (link-to "lehrer.html#personal_appointments" "persönliches Treffen") ", eine " (link-to "programm.html#coaching" "Beratung") " oder eine Meditationsstunde zu vereinbaren."]
- [:p "Wir hoffen auf Euer Verständnis und freuen uns über eine aktive Teilnahme an den Meditationen."])
+ [:p "Es besteht die Möglichkeit, einen Termin für ein " (link-to "lehrer.html#personal_appointments" "persönliches Treffen") ", eine " (link-to "programm.html#coaching" "Beratung") " oder eine Meditationsstunde zu vereinbaren."]
+ [:p "Wir freuen uns auf eine aktive Teilnahme an den Meditationen."])
