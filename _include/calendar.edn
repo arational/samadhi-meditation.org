@@ -4,7 +4,7 @@
       weeks-per-month 5
       months 6]
   (list
-   [:h3 "Kalenderübersicht mit allen "
+   [:h3 {:id "calendar"} "Kalenderübersicht mit allen "
     [:span.regular
      "regelmäßige Terminen"] " und "
     [:span.special
