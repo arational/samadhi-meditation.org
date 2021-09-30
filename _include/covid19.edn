@@ -1,6 +1,6 @@
 (list
  [:p
-  "Ihr seit in unserem " (link-to "kontakt.html" "Meditationszentrum in Ippendorf")" herzlich willkommen. Die Teilnehmerzahl im Meditationszentrum vor Ort ist auf 8 beschränkt. Darüber hinaus besteht jedoch die Möglichkeit via Zoom online an den Seminaren teilzunehmen. " (link-to "lehrer.html" "Bhante Samiddhi") " bietet für folgende regelmäßigen Termine Videokonferenzen über " (link-to "https://zoom.us" "Zoom") " an:"]
+  "Ihr seit in unserem " (link-to "kontakt.html" "Meditationszentrum in Ippendorf")" herzlich willkommen. Darüber hinaus besteht jedoch die Möglichkeit via Zoom online an den Seminaren teilzunehmen. " (link-to "lehrer.html" "Bhante Samiddhi") " bietet für folgende regelmäßigen Termine Videokonferenzen über " (link-to "https://zoom.us" "Zoom") " an:"]
  [:ul
   [:li "Meditation am Mittwoch von 19:00 bis 20:00 Uhr - " (link-to "programm.html#weekly_mindful" "Achtsam in die Wochenmitte") "."]
   [:li "Meditation am Freitag von 19:00 bis 20:00 Uhr"]
