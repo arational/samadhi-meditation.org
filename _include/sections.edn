@@ -32,6 +32,7 @@
       (when image
         [:style (css (at-media {:max-width "480px"}
                                [(css-id id) [:.caption {:background-image (url image)
+                                                        :background-size "cover"
                                                         :height image-height}]]))])
       [:div.caption
        (when image

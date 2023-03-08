@@ -28,8 +28,11 @@
              :id "peace"}
             {:include "sections/environment.edn"
              :image "images/environment.jpg"
-             :image-height "50vw"
+             :image-height "60vw"
              :title "Umweltbewusstsein"
-             :id "environment"}]
+             :id "environment"}
+            {:include "sections/funding.edn"
+             :title "Förderung"
+             :id "funding"}]
  :intro [:section [:p (:description *page*)]]
  :content "sections.edn"}

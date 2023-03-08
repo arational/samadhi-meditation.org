@@ -35,7 +35,12 @@
                :image "images/sunrise.jpg"
                :image-height "65vw"
                :title (:title mindful_weekend)
-               :id "mindful_weekend"}])
+               :id "mindful_weekend"}
+              {:include "sections/wedding.edn"
+               :title "Hochzeitszeremonie"
+               :image "images/wedding.jpg"
+               :image-height "130vw"
+               :id "wedding"}])
  :intro [:section
          [:p "Liebe Freunde des Samadhi Buddhistischen Meditationszentrums,"]
          [:p (:description *page*)]

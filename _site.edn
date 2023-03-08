@@ -1,6 +1,6 @@
 {:title "Samadhi Meditation Center Bonn"
  :description "TODO"
- :url "http://samadhi-bonn.de"
+ :url "http://samadhi-meditation.org"
  :excerpt-separator "<!--more-->"
  :menu [{:name "Home" :path "index.html"}
         {:name "Programm" :path "programm.html"}
@@ -11,11 +11,12 @@
         {:name "Kontakt" :path "kontakt.html"}]
  :regular-events {:newbies {:title "Einführung in die Meditation"
                             :dates (mapv date
-                                         ["2021-10-07"
-                                          "2021-11-04"
-                                          "2021-12-02"
-                                          "2022-01-06"
-                                          "2022-02-03"])}
+                                         ["2023-04-06"
+                                          "2023-05-04"
+                                          "2023-06-01"
+                                          "2023-07-06"
+                                          "2023-08-03"
+                                          "2023-09-07"])}
                   :coaching {:title "Spirituelle Beratung, Coaching und Sinnsuche"}
                   :weekly_mindful {:title "Achtsam in die Wochenmitte"
                                    :weekday 4}
@@ -23,4 +24,5 @@
                               :weekday 6}
                   :mindful_weekend {:title "Erfrischt und achtsam ins Wochenende"
                                     :weekday 7}
-                  :breakfast {:title "Frühstück und Meditation am Sonntag"}}}
+                  :breakfast {:title "Frühstück und Meditation am Sonntag"}}
+ #_(:gen-time #inst "2020-01-01T00:00:00")}

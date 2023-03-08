@@ -1,0 +1,16 @@
+(list
+ [:p
+  [:img.picture-left {:src (:image section)}]
+  "In dem Augenblick, in dem wir in uns den Wunsch entstehen lassen, das Leben voller Freude zu teilen, bildet sich in unserem Geist die
+Energie der Liebe." [:br]
+  [:br]
+  "An dem schönsten Tag in eurem Leben spüren wir durch eine heilsame Segnungszeremonie unsere gemeinsame Verbundenheit und dies wird
+lebenslang eine besondere Erinnerung sein."]
+ [:h3 "Ablauf der Zeremonie"]
+ [:ul
+  [:li "Die Zeremonie beginnt mit einer liebevollen Rede und einer kleinen Meditation. In der Ruhe liegt die Kraft der Liebe."]
+  [:li "Wir verbinden uns mit einem Baumwoll-Faden miteinander und wir steigern dadurch unsere Energie der Liebe, während " (link-to "lehrer.html" "Bhante Samiddhi")" ein wertvolles Mantra wie eine einfache Melodie singt."]
+  [:li "Das Brautpaar berührt sich mit den kleinen Fingern und " (link-to "lehrer.html" "Bhante Samiddhi") " segnet die Verbindung mit Wasser. Das Ausgießen von Wasser symbolisiert Sanftheit und steht für die heilsame Kraft der Spiritualität."]]
+ [:p
+  "Wenn Ihr Eure Verbindung auf besonders natürliche Weise von mir segnen lassen möchtet und Euch für Eure Hochzeit eine Zeremonie auf Herzensebene wünscht, könnt ihr mich gerne kontaktieren, um weitere Einzelheiten zu besprechen."]
+ [:p "Die Zeremonie dauert ca. 40 Minuten."])

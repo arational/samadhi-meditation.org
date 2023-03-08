@@ -18,5 +18,7 @@
  [:p
   "Täglich von 9:00 bis 19:00 Uhr." [:br]
   "Bitte vereinbaren Sie vorab telefonisch oder per Email einen Termin. Die Kontaktdaten finden Sie am " (link-to "#footer" "Ende der Seite") "."]
- [:h3 "Spende"]
- [:p "Die Spendenempfehlung beträgt pro Termin etwa 30 Euro. Wir freuen uns, wenn Sie das Meditationszentrum zusätzlich unterstützen. Alle Spendeninformationen findet Ihr unter der Seite " (link-to "spenden.html" "Spenden") "."])
+ [:h3 "Kosten"]
+ [:p "Die persönliche Beratung kostet pro Termin 40 Euro."]
+ [:h3 "Spenden"]
+ [:p "Wir freuen uns, wenn Sie das Meditationszentrum zusätzlich unterstützen. Alle Spendeninformationen findet Ihr unter der Seite " (link-to "spenden.html" "Spenden") "."])

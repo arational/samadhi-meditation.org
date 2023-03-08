@@ -1,0 +1,3 @@
+(list
+ [:div {:class "gfm-embed" :data-url "https://www.gofundme.com/f/kinder-in-sri-lanka/widget/large/"} ""]
+ [:script {:defer "defer" :src "https://www.gofundme.com/static/js/embed.js"} ""])

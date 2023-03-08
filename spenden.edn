@@ -17,6 +17,5 @@
           "Samadhi Buddhistischer Verein e.V. Bonn" [:br]
           "Sparkasse Köln-Bonn" [:br]
           "IBAN DE35 3705 0198 1931 5506 00" [:br]
-          "BIC COLS DE 33"]
-         (include "paypal_button.edn"))
+          "BIC COLS DE 33"])
  :content "sections.edn"}
