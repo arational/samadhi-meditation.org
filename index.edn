@@ -30,9 +30,6 @@
              :image "images/environment.jpg"
              :image-height "60vw"
              :title "Umweltbewusstsein"
-             :id "environment"}
-            {:include "sections/funding.edn"
-             :title "Förderung"
-             :id "funding"}]
+             :id "environment"}]
  :intro [:section [:p (:description *page*)]]
  :content "sections.edn"}
