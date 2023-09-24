@@ -42,16 +42,14 @@
        :color :#572b00
        :font-weight 400}]
  [:h4 {:margin 0
-       :padding (u/em 0.5)
+       :padding (u/em 1)
+       :padding-top (u/em 0.5)
        :padding-bottom 0
        :font-weight :bold}]
  [:p {:margin-left (u/em 1)
       :margin-right (u/em 1)
       :line-height (u/em 1.5)}]
- [:ul {:margin-left 0
-       :margin-right 0
-       :margin-bottom (u/em 1)
-       :margin-top (u/em 1)
+ [:ul {:margin (u/em 1)
        :padding-left (u/em 1)
        :list-style-type :circle}
   [:li {:margin-left (u/em 1)
@@ -124,7 +122,10 @@
  [:.subtitle {:font-weight :bold
               :display :block
               :color :#888
-              :padding-bottom (u/em 1)}]
+              :padding (u/em 1)
+              :padding-top 0
+              :padding-bottom 0}]
+ [:.content {:margin-top (u/em 1)}]
  [:.special {:background-color :#d0d0f0}]
  [:.regular {:background-color :#d0f0d0}]
 

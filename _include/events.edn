@@ -49,9 +49,10 @@
             "&nbsp;"
             [:a {:href (str "#" (get-in *events* [(inc i) :id]))} "&#9660;"]))]]]
       [:h3 (format-date date) " " time]
-      [:p (when image
-            [:img {:class (if (even? i) "picture-right" "picture-left")
-                   :src image}])
+      [:div.content
+       (when image
+         [:img {:class (if (even? i) "picture-right" "picture-left")
+                :src image}])
        [:span.subtitle subtitle]
-       excerpt]
-      content])))
+       [:p excerpt]
+       content]])))
