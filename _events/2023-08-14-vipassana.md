@@ -1,10 +1,10 @@
 ---
 title: Vipassana - Ruhe und Einsicht durch Meditation
 subtitle: Kurs
-date: 2023-06-24
+date: 2023-12-09
 time: von 9:00 bis 17:00 Uhr
 image: images/buddha_figure4.jpg
-image_height: 140vw
+image_height: 130vw
 ---
 Durch die Meditation erreichen wir einen ruhigen Zustand in uns. Diese Ruhe bringt uns innere Erkenntnis, so dass wir uns betrachten, erforschen und erfrischen können. Vipassana ist eine buddhistische Anleitung, die aus dem Satipattana Sutta stammt. Sie ermöglicht uns mit unserem Körper, unseren Gefühlen, unserem Geist und deren Wandelbarkeit in Resonanz zu gehen, um Blockaden aufzulösen und uns für die heilsame Kraft der Vertiefungen zu öffnen.
 
@@ -23,7 +23,7 @@ An diesem Tag wird [Bhante Samiddhi](lehrer.html) Vipassana-Meditation anleiten.
 
 ### Spende
 
-Spendenempfehlung für das Zentrum: 40 Euro.
+Spendenempfehlung für das Zentrum: 30 Euro.
 
 Es wäre schön, wenn jeder auch eine Kleinigkeit für unser gemeinsames Mittagessen mitbringen könnte. Wir wären dankbar für eine Herzensgabe ([Dana](spenden.html)) für den Lehrer: 10 - 20 Euro.
 
