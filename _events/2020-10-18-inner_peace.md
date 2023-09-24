@@ -16,10 +16,10 @@ time: von 19:00 bis ca. 20:00 Uhr
 image: images/bodhi-leaf.jpg
 image_height: 60vw
 ---
-*„Innerer Frieden und Ruhe im gegenwärtigen Moment“*<br>
-<br>
-In der aktuellen Situation und der bevorstehenden Winterzeit können wir uns bewusst Zeit für uns selbst nehmen und unseren Alltag entschleunigen, indem wir unsere Gedanken zur Ruhe bringen und freundlich zu uns sind.<br>
-<br>
+*„Innerer Frieden und Ruhe im gegenwärtigen Moment“*
+
+In der aktuellen Situation und der bevorstehenden Winterzeit können wir uns bewusst Zeit für uns selbst nehmen und unseren Alltag entschleunigen, indem wir unsere Gedanken zur Ruhe bringen und freundlich zu uns sind.
+
 An 10 Donnerstag Abenden wollen wir gemeinsam eine Stunde in Stille verbringen und meditieren. Dabei widmen wir uns an jedem Abend einem ausgewählten Thema.
 
 ### Meditation zu folgenden Themen

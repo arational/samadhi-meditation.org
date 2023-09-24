@@ -12,12 +12,12 @@ time: von 19:00 bis 20:30 Uhr
 image: images/shellpearl.jpg
 image_height: 65vw
 ---
-**Friedlich im gegenwärtigen Moment**<br>
-<br>
-Verschiedene Hindernisse begegnen uns im täglichen Leben.  Sie führen dazu, dass wir uns ignorant verhalten, unsere Achtsamkeit verlieren und unsere Spiritualität schwächen.<br>
-<br>
-Deshalb ist es wichtig, die verschiedenen Hindernisse genau zu verstehen.  Dadurch können wir sie einfacher überwinden und finden leichter inneren Frieden und Freiheit.  Meditation ist ein praktischer Weg, die Hindernisse kennen zu lernen und sie zu bewältigen.  Sie hilft uns, innere Stärke zu entwickeln, friedvoll und glücklich zu leben.<br>
-<br>
+**Friedlich im gegenwärtigen Moment**
+
+Verschiedene Hindernisse begegnen uns im täglichen Leben.  Sie führen dazu, dass wir uns ignorant verhalten, unsere Achtsamkeit verlieren und unsere Spiritualität schwächen.
+
+Deshalb ist es wichtig, die verschiedenen Hindernisse genau zu verstehen.  Dadurch können wir sie einfacher überwinden und finden leichter inneren Frieden und Freiheit.  Meditation ist ein praktischer Weg, die Hindernisse kennen zu lernen und sie zu bewältigen.  Sie hilft uns, innere Stärke zu entwickeln, friedvoll und glücklich zu leben.
+
 An sechs Dienstagabenden wird [Bhante B. Samiddhi](lehrer.html) eine Einführung in die verschiedenen Hindernisse geben.  Er wird unterschiedliche Meditationstechniken erläutern, die nützlich sind, die Hindernisse zu erkennen und zu meistern.
 
 ### Termine

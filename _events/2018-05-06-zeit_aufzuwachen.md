@@ -9,13 +9,13 @@ image_height: 60vw
 *„Es gibt eine Menge zu lernen, jeden Tag etwas anderes. Wenn du dich
 bewegst und aufmerksam bist für die Dinge um dich herum, wirst du
 wissen,
-wohin du wirklich willst.“*<br>
-Luang Phoo, der hellsichtige Abt des Klosters<br><br>
+wohin du wirklich willst.“*
+Luang Phoo, der hellsichtige Abt des Klosters
 Es zeigen Tina und Jan Richter, die Filmemacher, ihren Dokumentarfilm "Zeit Aufzuwachen" (80
 Minuten). Es geht um einen anderen Umgang mit dem Thema Sucht und Suchtbewältigung in einem buddhistischen Kloster in Thailand.
 
 <img src="images/phra_hans.jpg" class="picture">
-*„Wenn Sie begreifen, was in Ihnen ist, wird es Sie retten; wenn Sie nicht begreifen, was in Ihnen ist, wird es Sie zerstören.“*<br>
+*„Wenn Sie begreifen, was in Ihnen ist, wird es Sie retten; wenn Sie nicht begreifen, was in Ihnen ist, wird es Sie zerstören.“*
 Phra Hans, Schweizer Psychologe, Mönch in TKB
 
 Abhängigkeit umgibt uns, wo auch immer wir uns auf dieser Welt befinden. Ein buddhistisches Kloster in Thailand bietet Süchtigen aus unterschiedlichen Nationen und Kulturkreisen die Möglichkeit des Entzugs.

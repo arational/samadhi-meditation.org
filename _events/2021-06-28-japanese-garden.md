@@ -9,8 +9,8 @@ time: von 16:00 bis 17:30 Uhr
 image: images/japangarden.jpg
 image_height: 75vw
 ---
-Wir freuen uns, Euch zur Meditation im Einklang mit der Natur einzuladen.<br>
-<br>
+Wir freuen uns, Euch zur Meditation im Einklang mit der Natur einzuladen.
+
 Insbesondere im Sommer ist ein Garten ein heilsamer Ort, wo wir Wärme, Lebendigkeit und Wohlbefinden erfahren. Tiere und Pflanzen leben dort im Einklang mit der Natur. Wir lernen den unendlichen Reichtum des Lebens kennen, in dem Bewusstsein, ein Teil davon zu sein, und wir lassen aus tiefstem Herzen Wohlwollen und liebende Güte gegenüber der ganzen Welt erstrahlen.
 
 ### Wann

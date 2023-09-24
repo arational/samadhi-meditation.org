@@ -8,8 +8,8 @@ image_height: 64vw
 ---
 Für die meisten Menschen ist es schwierig, Fehler einzugestehen. Während die einen ihren eigenen
 Anteil daran verleugnen, wenn etwas „schiefgelaufen“ ist, sorgen sich die anderen um ihre Schuld.
-Es ist eine Kunst, damit umzugehen.<br>
-<br>
+Es ist eine Kunst, damit umzugehen.
+
 Warum ist es so schwer, Fehler einzugestehen? Wie können wir Verantwortung für das eigene
 Handeln übernehmen? Können wir uns überhaupt von unseren Schuldgefühlen befreien?
 

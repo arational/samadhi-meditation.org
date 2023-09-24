@@ -6,25 +6,25 @@ time: von 12:15 bis ca. 16:00 Uhr
 image: images/aw2020.jpg
 image_height: 65vw
 ---
-Wir treffen uns am **29.08. um 11:45 Uhr** am<br>
-[Samadhi Buddhistischen Meditationscenter<br>
- Gierolstr. 7<br>
- 53127 Bonn](https://goo.gl/maps/A82Y46yjUSo)<br>
-(direkt nach der Meditation)<br>
-<br>
-Alternativ könnt Ihr auch direkt zum Parkplatz am<br>
-[Friedhof Alfter<br>
-Buchholzweg<br>
-53347 Alfter](https://goo.gl/maps/DtBb8wX43DaYdrXD9)<br>
-fahren, wo wir uns **um ca. 12:15 Uhr** einfinden werden.<br>
-<br>
-Stephanie Große-Brockhoff wird uns durch die Wanderung führen. Falls Ihr weitere Fragen zur Wanderstrecke habt, könnt Ihr Euch gerne bei Steffi melden. Hier noch Steffis Telefonnummer und Emailadresse zur Kontaktaufnahme:<br>
-[0175 2630162](tel:+491752630162)<br>
+Wir treffen uns am **29.08. um 11:45 Uhr** am
+[Samadhi Buddhistischen Meditationscenter
+ Gierolstr. 7
+ 53127 Bonn](https://goo.gl/maps/A82Y46yjUSo)
+(direkt nach der Meditation)
+
+Alternativ könnt Ihr auch direkt zum Parkplatz am
+[Friedhof Alfter
+Buchholzweg
+53347 Alfter](https://goo.gl/maps/DtBb8wX43DaYdrXD9)
+fahren, wo wir uns **um ca. 12:15 Uhr** einfinden werden.
+
+Stephanie Große-Brockhoff wird uns durch die Wanderung führen. Falls Ihr weitere Fragen zur Wanderstrecke habt, könnt Ihr Euch gerne bei Steffi melden. Hier noch Steffis Telefonnummer und Emailadresse zur Kontaktaufnahme:
+[0175 2630162](tel:+491752630162)
 <sgrossebrockhoff@yahoo.com>
 
 ### Anmeldung
-Ansonsten freuen wir uns über zahlreiche Anmeldungen unter:<br>
-<vensamiddhi@gmail.com><br>
+Ansonsten freuen wir uns über zahlreiche Anmeldungen unter:
+<vensamiddhi@gmail.com>
 <sgrossebrockhoff@yahoo.com>
 
 ### Strecke

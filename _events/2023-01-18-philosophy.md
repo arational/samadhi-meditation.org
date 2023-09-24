@@ -9,8 +9,8 @@ dates:
 image: images/samiddhi3.jpg
 image_height: 140vw
 ---
-„Unser Leben ist mit dem Spielen eines Musikinstruments vergleichbar“. Sind die Saiten in der richtigen Balance gespannt sind, erzielen wir einen klangvollen und schönen Laut. Nur wenn wir das richtige Maß finden, können wir ein erfülltes Leben führen.<br>
-<br>
+„Unser Leben ist mit dem Spielen eines Musikinstruments vergleichbar“. Sind die Saiten in der richtigen Balance gespannt sind, erzielen wir einen klangvollen und schönen Laut. Nur wenn wir das richtige Maß finden, können wir ein erfülltes Leben führen.
+
 An jedem Abend beschäftigen wir uns mit verschiedenen Themen. Sich achtsam über ein Thema auszutauschen, wirkt inspirierend. Dadurch öffnet sich unser Herz leichter für Freude und Weisheit. Wir können diese weisen Gedanken anderen vermitteln. Wenn sie sich darüber freuen, erleben wir Mitfreude.
 
 ### Termine

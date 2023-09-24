@@ -6,22 +6,22 @@ time: von 10:00 bis ca. 15:00 Uhr
 image: images/wahner_heide.jpg
 image_height: 120vw
 ---
-Liebe Freunde,<br>
-<br>
-wir laden euch ganz herzlich zu unserer gemeinsamen Begegnung mit der Natur in der Wahner Heide ein.<br>
-<br>
-Wir treffen uns am **14.07. um 10:00 Uhr** im [Meditationszentrum](kontakt.html).<br>
-<br>
+Liebe Freunde,
+
+wir laden euch ganz herzlich zu unserer gemeinsamen Begegnung mit der Natur in der Wahner Heide ein.
+
+Wir treffen uns am **14.07. um 10:00 Uhr** im [Meditationszentrum](kontakt.html).
+
 Alternativ könnt Ihr auch direkt zum [Parkplatz Wahner Heide am Fliegenberg](https://goo.gl/maps/T8grdGuaqrXfF25v7) bei Troisdorf fahren, wo wir uns um **ca. 10:45** Uhr einfinden werden. Dort ist auch eine Haltestelle der Buslinie 506.
 
 ### Anmeldung
-Stephanie Große-Brockhoff wird uns durch die Wanderung führen. Falls Ihr weitere Fragen zur Wanderstrecke habt, könnt Ihr Euch gerne bei Steffi melden. Hier noch Steffis Telefonnummer und Emailadresse zur Kontaktaufnahme:<br>
-[0175 2630162](tel:01752630162)<br>
-[sgrossebrockhoff@yahoo.com](mailto:sgrossebrockhoff@yahoo.com)<br>
-<br>
-Ansonsten freuen wir uns über zahlreiche Anmeldungen unter:<br>
-[vensamiddhi@gmail.com](mailto:vensamiddhi@gmail.com)<br>
-[sgrossebrockhoff@yahoo.com](mailto:sgrossebrockhoff@yahoo.com)<br>
+Stephanie Große-Brockhoff wird uns durch die Wanderung führen. Falls Ihr weitere Fragen zur Wanderstrecke habt, könnt Ihr Euch gerne bei Steffi melden. Hier noch Steffis Telefonnummer und Emailadresse zur Kontaktaufnahme:
+[0175 2630162](tel:01752630162)
+[sgrossebrockhoff@yahoo.com](mailto:sgrossebrockhoff@yahoo.com)
+
+Ansonsten freuen wir uns über zahlreiche Anmeldungen unter:
+[vensamiddhi@gmail.com](mailto:vensamiddhi@gmail.com)
+[sgrossebrockhoff@yahoo.com](mailto:sgrossebrockhoff@yahoo.com)
 
 ### Strecke
 Wir gehen Richtung Westen durch die Sanddünen am Fliegenbergmoor und tauchen dann in den Wald ein, wo wir im Bogen an zwei kleinen Tümpeln vorbei wandern. Wir überqueren die Straße und gelangen nach kurzer Zeit zum gespaltenen Baum, wo wir eine schöne Rast einlegen und meditieren können. Durch die Heide gehen wir nach Osten und biegen ein kurzes Stück aufwärts in den Wald ab, wo wir ganz in der Nähe des Heidekönigs den Telegrafenberg erreichen. Auch hier haben wir Gelegenheit zum Ausruhen und Meditieren bevor es zurück Richtung Parkplatz geht. Es gibt eine Möglichkeit, die Wanderung durch einen kleinen Umweg um ca. 1 bis 2 km zu verlängern. Das können wir dann vor Ort entscheiden.

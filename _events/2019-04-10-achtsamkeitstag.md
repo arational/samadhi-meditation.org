@@ -9,8 +9,8 @@ image_height: 65vw
 Achtsamkeit ist in jeder Hinsicht eine zuverlässige Hilfe, das Greifen nach
 Vergangenheit und Zukunft zu überwinden. Wir können lernen, die Bewegungen
 des Geistes zu beobachten und aufmerksam darauf zu achten, wie wir mit
-jedem Gedanken umgehen.<br>
-<br>
+jedem Gedanken umgehen.
+
 An diesen Tag beschäftigen wir uns insbesondere mit der Frage: Welche
 Möglichkeiten gibt es, sich von belastenden und unnötigen Gedanken zu
 befreien?

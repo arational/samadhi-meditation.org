@@ -6,7 +6,7 @@ time: von 19:00 bis 21:00 Uhr
 image: images/drop.jpg
 image_height: 70vw
 ---
-**Zweiter Teil der Vortragsreihe**<br><br>
+**Zweiter Teil der Vortragsreihe**
 Unser Leben ist von Veränderung gekennzeichnet. Wir können Alter, Krankheit und dem Tod nicht entgehen. Doch obwohl wir das wissen, haben wir große Angst davor, werden traurig und unzufrieden. Die buddhistische Lehre trägt dazu bei, besser mit diesen menschlichen Schwierigkeiten umzugehen. Sie unterstützt uns darin, unsere spirituellen Fähigkeiten und unser inneres Potenzial zu entwickeln. Dies bedeutet  „Nahrung für den Geist“ zu sammeln.<br /><br />
 Was jedoch ist geistige Nahrung? Wie sammeln wir sie? Wie entwickeln wir dadurch unsere spirituellen Fähigkeiten und unser inneres Potenzial?<br /><br />
 [Bhante Samiddhi](lehrer.html) wird uns diese Fragen anhand praktischer Beispiele und Meditationsübungen erläutern.

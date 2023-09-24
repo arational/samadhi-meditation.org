@@ -6,16 +6,16 @@ time: von 15:00 bis 16:30 Uhr
 image: images/buddha_figure2.jpg
 image_height: 100vw
 ---
-<br> *Der Sieger sät sich Hass,*<br>
-*und der Besiegte leidet.*<br>
-*Lass Sieg und Niederlage los,*<br>
-*finde das Glück des tiefen Friedens.*<br>
-[Dhammapada, 201](http://palikanon.com/khuddaka/dhp/dhp3.htm#Sukha)<br><br>
+ *Der Sieger sät sich Hass,*
+*und der Besiegte leidet.*
+*Lass Sieg und Niederlage los,*
+*finde das Glück des tiefen Friedens.*
+[Dhammapada, 201](http://palikanon.com/khuddaka/dhp/dhp3.htm#Sukha)
 Die buddhistische Lehre ist bekannt als eine spirituelle Lehre, die es
 ermöglicht sich vom Leiden zu befreien. Soziale Ungerechtigkeit,
 Diskriminierung sowie bestimmte politische Ansichten und Gedanken
 verursachen Leiden. Daher vermittelt Buddha eine spirituelle Lebensweise,
-die einen Weg zu einem zufriedenen und glücklichen Leben aufzeigt.<br><br>
+die einen Weg zu einem zufriedenen und glücklichen Leben aufzeigt.
 In seinem Vortrag wird [Ven B. Samiddhi](lehrer.html) anhand verschiedener buddhistischer
 Lehren erläutern wie wir im Alltag sinnvolle und hilfreiche politische
 Gedanken schaffen können.

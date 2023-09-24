@@ -6,10 +6,10 @@ time: von 15:00 bis 18:00 Uhr
 image: images/heilsame_sprache.jpg
 image_height: 135vw
 ---
-Wir laden Euch ganz herzlich ein zum fünfjährigen Jubiläum des Meditationszentrums Samadhi.<br>
-<br>
-Anlässlich des Festes werden wir Euch das neue Buch von Bhante B. Samiddhi *"Durch heilsame Sprache achtsam sein"* präsentieren.<br>
-<br>
+Wir laden Euch ganz herzlich ein zum fünfjährigen Jubiläum des Meditationszentrums Samadhi.
+
+Anlässlich des Festes werden wir Euch das neue Buch von Bhante B. Samiddhi *"Durch heilsame Sprache achtsam sein"* präsentieren.
+
 Wir freuen uns darauf, gemeinsam mit Euch zu feiern!
 
 ### Programm

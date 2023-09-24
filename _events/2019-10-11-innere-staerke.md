@@ -6,21 +6,21 @@ time: von 10:00 bis 15:00 Uhr
 image: images/resilienz.jpg
 image_height: 60vw
 ---
-**Einführung in die fünf Hindernisse und verschiedene Meditationsarten**<br>
-<br>
+**Einführung in die fünf Hindernisse und verschiedene Meditationsarten**
+
 Fünf Hindernisse begegnen uns im täglichen Leben. Sie führen dazu, dass wir uns ignorant
-verhalten, unsere Achtsamkeit verlieren und unsere Spiritualität schwächen.<br>
-<br>
+verhalten, unsere Achtsamkeit verlieren und unsere Spiritualität schwächen.
+
 Deshalb ist es wichtig, die verschiedenen Hindernisse genau zu verstehen. Dadurch können wir sie
 einfacher überwinden und finden leichter inneren Frieden und Freiheit. Meditation ist ein
 praktischer Weg, die Hindernisse kennen zu lernen und sie zu bewältigen. Sie hilft uns, innere
-Stärke zu entwickeln, friedvoll und glücklich zu leben.<br>
-<br>
+Stärke zu entwickeln, friedvoll und glücklich zu leben.
+
 In diesem Wochenendseminar wird [Bhante B. Samiddhi](lehrer.html) eine Einführung in die verschiedenen
 Hindernisse geben. Er wird unterschiedliche Meditationstechniken erläutern, die nützlich sind, die
 Hindernisse zu erkennen und zu überwinden.
 
-**1. Tag: Samstag der 30. November**<br>
+**1. Tag: Samstag der 30. November**
 **2. Tag: Sonntag der 1. Dezember**
 
 ### Tagesablauf

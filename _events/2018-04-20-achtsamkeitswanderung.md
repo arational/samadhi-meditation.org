@@ -8,24 +8,24 @@ image_height: 65vw
 ---
 Bei dieser Wanderung wird Bhante B. Samiddhi uns anhand von Beispielen aus der buddhistischen Lehre erläutern, welche Verbindung zwischen uns und unserer Umwelt besteht. Während wir wandern, genießen wir die Schönheit der Natur und spüren unsere tiefe, innere Verbundenheit.
 
-Wir treffen uns am **27.05. um 10:15 Uhr** am<br>
-[Samadhi Buddhistischen Meditationscenter<br>
-Gierolstr. 7<br>
+Wir treffen uns am **27.05. um 10:15 Uhr** am
+[Samadhi Buddhistischen Meditationscenter
+Gierolstr. 7
 53127 Bonn](https://goo.gl/maps/A82Y46yjUSo)
 
-Alternativ könnt Ihr auch direkt zum Parkplatz in Heisterbachrott fahren, wo wir uns um **ca. 11:00 Uhr** einfinden werden:<br>
-[Parkplatz am Kindergarten Siebengebirge e.V.<br>
-Dollendorferstraße 401<br>
-53639 Königswinter Heisterbachrott](https://goo.gl/maps/jtgK62fb8jn)<br>
+Alternativ könnt Ihr auch direkt zum Parkplatz in Heisterbachrott fahren, wo wir uns um **ca. 11:00 Uhr** einfinden werden:
+[Parkplatz am Kindergarten Siebengebirge e.V.
+Dollendorferstraße 401
+53639 Königswinter Heisterbachrott](https://goo.gl/maps/jtgK62fb8jn)
 gegenüber vom Haus Schlesien. In der Nähe ist auch eine Bushaltestelle der Linie 537 aus Oberdollendorf.
 
-Stephanie Große-Brockhoff wird uns durch die Wanderung führen. Falls Ihr weitere Fragen zur Wanderstrecke habt, könnt Ihr Euch gerne bei Steffi melden. Hier noch Steffis Telefonnummer und Emailadresse zur Kontaktaufnahme:<br>
-0175 2630162<br>
+Stephanie Große-Brockhoff wird uns durch die Wanderung führen. Falls Ihr weitere Fragen zur Wanderstrecke habt, könnt Ihr Euch gerne bei Steffi melden. Hier noch Steffis Telefonnummer und Emailadresse zur Kontaktaufnahme:
+0175 2630162
 <sgrossebrockhoff@yahoo.com>
 
 ### Anmeldung
-Ansonsten freuen wir uns über zahlreiche Anmeldungen unter:<br>
-<vensamiddhi@gmail.com><br>
+Ansonsten freuen wir uns über zahlreiche Anmeldungen unter:
+<vensamiddhi@gmail.com>
 <sgrossebrockhoff@yahoo.com>
 
 ### Strecke

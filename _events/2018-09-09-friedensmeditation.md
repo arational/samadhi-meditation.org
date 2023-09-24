@@ -6,14 +6,14 @@ time: von 11:00 bis 11:15 Uhr
 image: images/kulturfest_bonn.png
 image_height: 85vw
 ---
-Liebe Freunde,<br>
-<br>
-wir laden Euch herzlich ein zur<br>
-<br>
-**Meditation für Frieden in der Welt**<br>
-<br>
-auf der<br>
-<br>
+Liebe Freunde,
+
+wir laden Euch herzlich ein zur
+
+**Meditation für Frieden in der Welt**
+
+auf der
+
 **Bühne vor dem Alten Rathaus, Marktplatz/Bonn**
 
 An diesem Tag findet das Bonner Kultur- und Begegnungsfest "Vielfalt!" statt und wir eröffnen das Bühnenprogramm mit einer kurzen Friedensmeditation.

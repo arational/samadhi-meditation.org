@@ -8,8 +8,8 @@ image_height: 65vw
 ---
 An den Achtsamkeitstagen widmen wir uns grundsätzlich einem ausgewählten,
 spirituellen Thema. Wir gehen achtsam miteinander um und verbringen viel
-Zeit mit Meditation und Schweigen.<br>
-<br>
+Zeit mit Meditation und Schweigen.
+
 Der bevorstehende Achtsamkeitstag wird sich mit dem Thema *„Umgang mit Angst
 und Scham“* beschäftigen. Wir vertiefen unsere Meditation und lernen
 unterschiedliche Möglichkeiten kennen wie wir Angst- und Schamgefühle

@@ -6,7 +6,7 @@ time: um 10:00 Uhr
 image: images/buddha_museum.jpg
 image_height: 70vw
 ---
-Liebe Freundinnen und Freunde,<br><br>
+Liebe Freundinnen und Freunde,
 am 5. August wollen wir das Buddha-Museum in Traben- Trabach (Mosel) besuchen.
 Dieses Museum ist wohl eines der größten Buddha-Museen in Europa. Auf mehreren
 Etagen werden buddhistische Exponate aus unterschiedlichen Kulturen und Epochen gezeigt.
