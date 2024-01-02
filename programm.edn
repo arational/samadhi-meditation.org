@@ -22,7 +22,7 @@
                :title (:title coaching)
                :id "coaching"}
               {:include "sections/weekly_mindful.edn"
-               :image "images/lotus_buddha.jpg"
+               :image "images/lotus.jpg"
                :image-height "65vw"
                :title (:title weekly_mindful)
                :id "weekly_mindful"}
@@ -32,7 +32,7 @@
                :title (:title vipassana)
                :id "vipassana"}
               {:include "sections/mindful_weekend.edn"
-               :image "images/sunrise.jpg"
+               :image "images/meditation_room.jpeg"
                :image-height "65vw"
                :title (:title mindful_weekend)
                :id "mindful_weekend"}
@@ -44,7 +44,7 @@
  :intro [:section
          [:p "Liebe Freunde des Samadhi Buddhistischen Meditationszentrums,"]
          [:p (:description *page*)]
-         [:p (link-to "flyer_2020.pdf" "Programm 2019/20 als PDF zum Download")]
+         #_[:p (link-to "flyer_2020.pdf" "Programm 2019/20 als PDF zum Download")]
          (include "covid19.edn")
          (include "calendar.edn")]
  :content "sections.edn"}
