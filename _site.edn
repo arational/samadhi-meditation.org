@@ -5,22 +5,28 @@
  :menu [{:name "Home" :path "index.html"}
         {:name "Programm" :path "programm.html"}
         {:name "Events" :path "events.html"}
+        {:name "Angebote" :path "angebote.html"}
         {:name "Lehrer" :path "lehrer.html"}
         {:name "Medien" :path "medien.html"}
         {:name "Spenden" :path "spenden.html"}
         {:name "Kontakt" :path "kontakt.html"}]
  :regular-events {:newbies {:title "Einführung in die Meditation"
                             :dates (mapv date
-                                         ["2023-04-06"
-                                          "2023-05-04"
-                                          "2023-06-01"
-                                          "2023-07-06"
-                                          "2023-08-03"
-                                          "2023-09-07"])}
+                                         ["2025-02-06"
+                                          "2025-03-06"
+                                          "2025-04-03"
+                                          "2025-05-01"
+                                          "2025-06-05"
+                                          "2025-07-03"
+                                          "2025-08-07"
+                                          "2025-09-04"
+                                          "2025-10-02"
+                                          "2025-11-06"
+                                          "2025-12-04"])}
                   :coaching {:title "Spirituelle Beratung, Coaching und Sinnsuche"}
                   :weekly_mindful {:title "Achtsam in die Wochenmitte"
                                    :weekday 4}
-                  :vipassana {:title "Vipassana (Langer Meditationsabend)"
+                  :vipassana {:title "Achtsamkeits- und Vipassanameditation"
                               :weekday 6}
                   :mindful_weekend {:title "Erfrischt und achtsam ins Wochenende"
                                     :weekday 7}

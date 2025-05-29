@@ -1,6 +1,17 @@
 (list
  [:h3 "Mittwochs 19:00 - 20:00 Uhr"]
- [:p
-  [:img.picture-right {:src (:image section)}]
-  "Während der Woche verlieren wir gelegentlich unsere Achtsamkeit und Konzentration auf den aktuellen Augenblick. Zu viele Herausforderungen müssen wir während des täglichen Lebens meistern. Eine kurze Auszeit lässt uns den Alltagsstress vergessen und neue Energie schöpfen. Wir werden still und sind ganz im gegenwärtigen Moment." [:br] [:br]
-  "In diesem Kurs trainieren wir durch Atem- und Liebende-Güte-Meditation unsere Achtsamkeit. " (link-to "lehrer.html" "Bhante Samiddhi") " wird jeweils eine kurze Einführung oder Anleitung zur Meditation geben."])
+ [:p [:img.picture-right {:src (:image section)}]
+  "In der Hektik des Alltags verlieren wir oft unsere Achtsamkeit und Konzentration auf den gegenwärtigen Moment. Die zahlreichen Herausforderungen, die wir im Laufe der Woche meistern müssen, können uns überfordern. Eine kurze Auszeit hilft uns, den Alltagsstress hinter uns zu lassen und neue Energie zu tanken. In diesem Kurs nehmen wir uns die Zeit, still zu werden und ganz im Hier und Jetzt zu sein."]
+ [:p "Durch Atem- und Liebende-Güte-Meditation trainieren wir unsere Achtsamkeit und finden zurück
+zu uns selbst."]
+ [:p "Ablauf der Meditationsstunde:"]
+ [:ul
+  [:li "Begrüßung und Ankommen: Vorstellung des Themas (5 Minuten)."]
+  [:li "Melodische Rezitation: Das Lied der Liebe – Metta Sutta. Wir lassen Gedanken los und verweilen im gegenwärtigen Moment durch die Konzentration auf den Rhythmus (5 Minuten)."]
+  [:li "Liebevolle Meditation: Sanftes Ein- und Ausatmen führt uns zu innerer Ruhe. Wir befreien uns von allem Ballast und entspannen uns (20 Minuten)."]
+  [:li "Achtsamkeitsmeditation: Wir strahlen innere Ruhe und Frieden aus (20 Minuten)."]
+  [:li "Vertiefung des Themas."]
+  [:li "Tee trinken."]]
+ [:h3 "Kosten"]
+ [:p "Wir wären sehr dankbar für Ihre Wertschätzung ab 10 Euro."]
+ [:p "Wir freuen uns darauf, Sie in dieser achtsamen Stunde willkommen zu heißen!"])

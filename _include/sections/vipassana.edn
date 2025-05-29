@@ -1,5 +1,18 @@
 (list
- [:h3 "Freitags 19:00 - 20:00 Uhr"]
+ [:h3 "Freitags 19:00 - 21:00 Uhr"]
  [:p
   [:img.picture-left {:src (:image section)}]
-  "An diesem Abend praktizieren wir ca. eine Stunde Sitz- und Gehmeditation. Dadurch schulen wir unsere innere Einsicht."])
+  "Der Freitagabend ist der perfekte Zeitpunkt, um zu uns selbst zurückzukehren und alles, was in uns und um uns herum geschieht, zu erkennen und loszulassen. In jedem Moment verweilen wir im Frieden. An diesem Abend praktizieren wir etwa eine Stunde Sitz- und Gehmeditation, um unsere innere Einsicht zu schulen."]
+ [:p "Ablauf der Meditationsstunden:"]
+ [:ul
+  [:li "Begrüßung und Ankommen: Vorstellung des Themas (5 Minuten)."]
+  [:li "Melodische Rezitation: Das Lied der Liebe – Metta Sutta. Wir lassen Gedanken los und verweilen im gegenwärtigen Moment durch Konzentration auf den Rhythmus (5 Minuten)."]
+  [:li "Liebevolle Meditation: Sanftes Ein- und Ausatmen führt uns zu innerer Ruhe. Wir befreien uns von allem Ballast und entspannen uns. Liebe, Freude und Gelassenheit fließen aus unserem Herzen, sodass wir im Alltag ein Leben voller Freude führen können (20 Minuten)."]
+  [:li "Achtsamkeits- und Vipassanameditation: Wir strahlen innere Ruhe und Frieden aus (20 Minuten)."]
+  [:li "Vertiefung des Themas (10 Minuten)."]
+  [:li "Geh-Meditation (20 Minuten)."]
+  [:li "Ruhe- und Vipassana-Meditation (40 Minuten)."]
+  [:li "Tee trinken."]]
+ [:h3 "Kosten"]
+ [:p "Wir wären sehr dankbar für Ihre Wertschätzung ab 15 Euro."]
+ [:p "Wir freuen uns darauf, Sie an diesem Abend willkommen zu heißen!"])

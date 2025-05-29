@@ -5,7 +5,7 @@
  :image "images/altar.jpg"
  :image-height "60vw"
  :layout "page.edn"
- :description "Wir ermutigen und unterstützen alle Menschen, ihre eigene Spiritualität zu entdecken und weiterzuentwickeln. Im Einklang mit der buddhistischen Lebensweise, lehren wir wie es uns leichter gelingt, friedvoll, in Balance mit uns und unserer Umwelt, spirituell sowie materiell reich und glücklich zu leben."
+ :description "Willkommen in unserem Meditationszentrum in Bonn-Ippendorf! Wir ermutigen und unterstützen alle Menschen dabei, ihre eigene Spiritualität zu entdecken und weiterzuentwickeln. Im Einklang mit der buddhistischen Lebensweise zeigen wir Wege auf, wie es uns gelingt, friedvoll und im Gleichgewicht mit uns selbst sowie unserer Umwelt zu leben – sowohl spirituell als auch materiell."
  :sections [{:include "sections/meditation.edn"
              :image "images/meditation.jpg"
              :image-height "130vw"
@@ -26,5 +26,7 @@
              :image-height "60vw"
              :title "Umweltbewusstsein"
              :id "environment"}]
- :intro [:section [:p (:description *page*)]]
+ :intro [:section
+         [:p "Willkommen in unserem Meditationszentrum in Bonn-Ippendorf!"]
+         [:p "Wir ermutigen und unterstützen alle Menschen dabei, ihre eigene Spiritualität zu entdecken und weiterzuentwickeln. Im Einklang mit der buddhistischen Lebensweise zeigen wir Wege auf, wie es uns gelingt, friedvoll und im Gleichgewicht mit uns selbst sowie unserer Umwelt zu leben – sowohl spirituell als auch materiell."]]
  :content "sections.edn"}
