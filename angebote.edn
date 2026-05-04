@@ -1,0 +1,26 @@
+{:path "angebote.html"
+ :mode :xhtml
+ :title "Angebote"
+ :subtitle "Besondere Angebote"
+ :image "images/room2.jpg"
+ :image-height "50vw"
+ :layout "page.edn"
+ :description "Wir bieten besondere Leistungen an."
+ :sections [{:include "sections/apprentice.edn"
+             :title "Ausbildung zum Meditations- und Achtsamkeitslehrer"
+             :image "images/apprentice.jpg"
+             :image-height "130vw"
+             :id "apprentice"}
+            {:include "sections/travel_sri_lanka.edn"
+             :title "Reise nach Sri Lanka mit Samiddhi"
+             :image "images/samiddhi5.jpg"
+             :image-height "77vw"
+             :id "travel_srilanka"}
+            {:include "sections/project_sri_lanka.edn"
+             :title "Projekt in Sri Lanka"
+             :image "images/sri_lanka.jpg"
+             :image-height "77vw"
+             :id "project_srilanka"}]
+ :intro [:section
+         [:p (:description *page*)]]
+ :content "sections.edn"}

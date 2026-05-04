@@ -20,5 +20,5 @@
            [:li "Beratung zu den Herausforderungen des Alltags"]
            [:li "Beratung zu spirituellen Fragen"]]
           [:p "Bitte vereinbaren Sie vorab " (tel-to "+49-228-926-791-38" "telefonisch") " oder per " (mail-to "vensamiddhi@gmail.com" "E-Mail") " einen Termin mit ihm."]
-          [:p "Darüberhinaus bietet B. Samiddhi persönliche Termine zum Thema " (link-to "programm.html#coaching" "Spirituelle Beratung, Coaching und Sinnsuche") " an."]])
+          [:p "Darüberhinaus bietet B. Samiddhi persönliche Termine zum Thema " (link-to "index.html#coaching" "Spirituelle Beratung, Coaching und Sinnsuche") " an."]])
  :content "sections.edn"}

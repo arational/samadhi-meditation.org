@@ -1,0 +1,22 @@
+(list
+ [:p
+  [:img.picture-right {:src (:image section)}]
+  "Möchtest Du ein neues Projekt in Sri Lanka mit mir gestalten? " [:i "\"Brücken zwischen Kulturen – Ein
+transnationales Erlebnis.\""]
+  [:br] [:br]
+  "Stell’ Dir vor, Du stehst auf einem malerischen Grundstück mit einem charmanten Haus, umgeben von der Schönheit der Natur. Hier möchten wir ein inspirierendes Projekt ins Leben rufen, das die Herzen von Menschen aus Deutschland und unserem Standort in Sri Lanka verbindet."]
+ [:h3 "Vision des Projekts"]
+ [:p "Unser Ziel ist es, eine Plattform zu schaffen, die den Austausch zwischen zwei Ländern fördert. Wir wollen eine entspannte und freudevolle Atmosphäre kreieren, in der Freundschaften entstehen und kulturelle Erlebnisse geteilt werden können. Durch gemeinsame Aktivitäten und Programme möchten wir nicht nur die Umwelt schätzen lernen, sondern auch spirituelle Praktiken fördern."]
+ [:p "Was wir anbieten:"]
+ [:ul
+  [:li "Kultureller Austausch: Erlebe die Vielfalt der Kulturen durch Workshops und gemeinsame Feste."]
+  [:li "Umweltfreundliche Initiativen: Setze Dich mit uns für den Schutz unserer Umwelt ein.
+Gemeinsam entwickeln wir Projekte zur Förderung von Nachhaltigkeit und Umweltschutz."]
+  [:li "Spirituelle Erfahrungen: Lass’ Dich von meditativen Retreats und spirituellen Workshops
+inspirieren, die Körper und Geist in Einklang bringen."]
+  [:li "Reise und Freundschaft: Entdecke neue Horizonte und knüpfe wertvolle Freundschaften
+über Grenzen hinweg."]]
+ [:h3 "Wer kann mitmachen?"]
+ [:p "Wir suchen engagierte Partner aus Deutschland, die bereit sind, dieses einzigartige Projekt mit uns zu gestalten. Wenn Du Interesse hast, Deine Ideen einzubringen oder aktiv an diesem Austausch teilzunehmen, freuen wir uns auf Deine Nachricht!"]
+ [:p "Lass uns gemeinsam Brücken bauen – für eine bessere Zukunft voller Freude, Verständnis und gemeinsamer Erlebnisse!"]
+ [:p "Für weitere Informationen melde Dich gerne unter den Kontaktdaten am " (link-to "#footer" "Ende der Seite") "."])

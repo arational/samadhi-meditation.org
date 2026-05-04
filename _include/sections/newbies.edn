@@ -1,5 +1,5 @@
 (list
- [:h3 "Jeden ersten Donnerstag im Monat 19:00 - 20:00 Uhr"]
+ [:h3 "Jeden ersten Donnerstag im Monat 19:00 - 20:30 Uhr"]
  [:p [:img.picture-left {:src (:image section)}]
   "Für Besucher, die zum ersten Mal kommen oder noch keine Erfahrung in der Achtsamkeitsmeditation haben, bietet " (link-to "lehrer.html" "Bhante Samiddhi") " eine persönliche Einführung an. In dieser Sitzung erhalten Sie einen kurzen Einblick in die buddhistische Lehre, lernen verschiedene Meditationsarten kennen und erfahren, wie Sie diese in Ihren Alltag integrieren können."]
  [:p "Durch diese Einführung entwickeln wir Fähigkeiten wie Achtsamkeit und Bewusstsein. Wir erweitern unser Potenzial, unangenehme Empfindungen zu erkennen und zu überwinden, um inneren Frieden und wahres Glück zu finden. Die Einführung beginnt mit einer Tasse Tee und einem einladenden Gespräch."]

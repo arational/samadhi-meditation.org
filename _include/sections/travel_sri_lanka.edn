@@ -1,0 +1,34 @@
+(list
+ [:p
+  [:img.picture-left {:src (:image section)}]
+  [:i "\"Ein Land kennenzulernen bedeutet nicht nur zu sehen, was dort alles existiert, sondern viel mehr zu verstehen, wie es sich bis heute gewandelt hat.\""]
+  [:br] [:br]
+  [:strong "Wenn du solch eine Reise mit mir erleben möchtest, lade ich dich herzlich dazu ein!"]
+  [:br] [:br]
+  "Auf unserer Reise werden wir gemeinsam besondere Momente erleben und Kultur, Natur, Glauben und Geschichte kennenlernen."
+  [:br] [:br]
+  "Dort, wo antike Ruinen von der Vergangenheit zeugen, werde ich den historischen Hintergrund sowie die mythologischen und politischen Vorstellungen der Menschen in der damaligen Zeit erläutern."
+  [:br] [:br]
+  "Jeden Morgen werden wir gemeinsam kurz meditieren, um unsere Energie zu stärken. Abends werde ich über verschiedene Aspekte von Sri Lanka erzählen."]
+ [:h3 "Reiseverlauf"]
+ [:p "In diesen zwei Wochen werden wir:"]
+ [:ul
+  [:li "Wichtige antike Ruinen besuchen."]
+  [:li "Tempel erkunden."]
+  [:li "Naturgebiete entdecken."]
+  [:li "Zwei Tage am Strand verbringen."]
+  [:li "Tägliche Rituale im Buddhismus kennenlernen."]]
+ [:h3 "Termin für Gruppenreise"]
+ [:p "Es stehen folgende Termine zur Verfügung: 14. bis 27. Mai oder 4. bis 17. November 2026. Bitte lass uns bis Januar wissen, welcher Termin Dir besser passt."]
+ [:p "Lass uns gemeinsam die Schönheit und Vielfalt Sri Lankas entdecken. Ich freue mich auf eine unvergessliche Reise mit dir!"]
+ [:p "Herzliche Grüße" [:br] "Samiddhi"]
+ [:p "Für Anmeldung und weitere Infos siehe die Kontaktdaten am " (link-to "#footer" "Ende der Seite") "."]
+ [:h3 "Individuelle Reisen"]
+ [:p "Für eine individuelle Reise stehen Ihnen Beratungsservices zur Verfügung. Ich helfe Ihnen gerne, Ihre Reise nach Ihren Wünschen und Vorstellungen zu gestalten."]
+ [:h3 "Kosten"]
+ [:p "1900€ (ohne Flug). Im Preis inbegriffen sind:"]
+ [:ul
+  [:li "Frühstück"]
+  [:li "Abendessen"]
+  [:li "Unterkunft"]
+  [:li "Transport"]])

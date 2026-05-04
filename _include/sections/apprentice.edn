@@ -1,0 +1,39 @@
+(list
+ [:h3 "Start: 16. Januar 2027 von 12:00 bis 14:00 Uhr"]
+ [:p [:img.picture-right {:src (:image section)}]
+  [:strong "Basiert auf buddhistischer Praxis (Mit Zertifikat)"]
+  [:br] [:br]
+  "Dieser Kurs findet im Zentrum und via Zoom statt."
+  [:br] [:br]
+  "Neue Erkenntnis und neue Lebensphilosophie."
+  [:br] [:br]
+  "In dieser Ausbildung werden die Grundlagen der buddhistischen Praxis vermittelt. Es wird Wert auf einen alltagstauglichen Zugang zur Spiritualität durch Meditation, Achtsamkeit und Bewusstseinstraining gelegt. Die buddhistischen Inhalte werden nicht als dogmatische, starre und traditionsgebundene Religion unterrichtet sondern im Sinne einer modernen, an die westliche Welt angepassten Lebensphilosophie."]
+ [:h3 "Methode"]
+ [:p "Gewahrsein → Resonanz mit uns → Gedanken als Gedanken erkennen → Emotionen als Emotionen Wahrnehmen → Akzeptieren → Loslassen"]
+ [:ul
+  [:li "Das Prinzip des Bedingten Entstehens und der Vier Edlen Wahrheiten als Prozess des Bewusstsein."]
+  [:li "Wie wir mit uns in Resonanz gehen, um unseren Körper, unsere Gefühle, Denkweise, Fantasien, Konzepte und Veränderungen achtsam wahrzunehmen."]
+  [:li "Wir konzentrieren uns darauf, die Bewegungen des Geistes zu erkennen und schulen dadurch unsere Achtsamkeit und Willenskraft."]
+  [:li "Durch die Meditation werden wir gewahr, so dass wir uns betrachten, erforschen und erfrischen können."]
+  [:li "Unseren Blick nach innen zu richten, damit wir wieder im Einklang mit uns selbst sind."]
+  [:li "Techniken und Werkzeuge kennenlernen, die uns helfen, heilsam und zuversichtlich mit den eigenen, verfügbaren Kräften durchs Leben zu gehen."]]
+ [:h3 "Zielgruppe"]
+ [:ul
+  [:li "Menschen, die für sich selbst Ruhe und Heilung erfahren sowie Erkenntnisse zur eigenen Befreiung erlangen wollen."]
+  [:li "Yoga-, Achtsamkeits- und Meditationslehrer: als Weiterbildung."]
+  [:li "HeilpraktikerInnen, die Meditation als eine Form der Selbstheilung an ihre Patienten weitergeben wollen."]
+  [:li "Psychologische Berater/Spirituelle Berater"]]
+ [:h3 "Theorie"]
+ [:p "Samstags 2 Stunden Unterricht an den folgenden Tagen: 16.01., 23.01., 30.01., 06.02., 20.02., 27.02., 06.03., 13.03. (insgesamt 8 Tage von 12:00 - 14:00 Uhr)"]
+ [:h3 "Meditationspraxis"]
+ [:ul
+  [:li "Mindestens einmal pro Woche an den drei Meditationssitzungen samstags, mittwochs und freitags teilnehmen."]
+  [:li "Vier mal austauschen."]
+  [:li "Jede Woche reflektieren wir über eine Frage und beantworten sie."]
+  [:li "An zwei Achtsamkeitstagen teilnehmen: Sonntag der 14.02. von 11:00 - 16:00 und Sonntag der 21.03. von 11:00 bis 16:00 Uhr"]]
+ [:p "Spirituelle Beratung kostet: 60 Euro."]
+ [:h3 "Sonstiges"]
+ [:ul
+  [:li "Maximal 10 Teilnehmer."]
+  [:li "Dauer: 10 Monate (Februar bis November 2025)."]
+  [:li "Kosten: 590 Euro (es ist möglich, monatlich je 59 Euro zu überweisen)."]])

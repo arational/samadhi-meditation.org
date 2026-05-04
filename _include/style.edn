@@ -54,6 +54,11 @@
        :list-style-type :circle}
   [:li {:margin-left (u/em 1)
         :line-height (u/em 1.5)}]]
+ [:ol {:margin (u/em 1)
+       :padding-left (u/em 1)}
+  [:li {:margin-left (u/em 1)
+        :line-height (u/em 1.5)}]]
+ [:strong {:font-weight :bold}]
  [:header {:display :flex
            :height (u/em 3)}]
  [:section {:display :flex

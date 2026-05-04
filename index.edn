@@ -1,32 +1,45 @@
 {:path "index.html"
  :mode :xhtml
- :title "Home"
- :subtitle "Vision"
- :image "images/altar.jpg"
- :image-height "60vw"
+ :title "Programm"
+ :subtitle "Regelmäßige Termine"
+ :image "images/room2.jpg"
+ :image-height "50vw"
  :layout "page.edn"
- :description "Willkommen in unserem Meditationszentrum in Bonn-Ippendorf! Wir ermutigen und unterstützen alle Menschen dabei, ihre eigene Spiritualität zu entdecken und weiterzuentwickeln. Im Einklang mit der buddhistischen Lebensweise zeigen wir Wege auf, wie es uns gelingt, friedvoll und im Gleichgewicht mit uns selbst sowie unserer Umwelt zu leben – sowohl spirituell als auch materiell."
- :sections [{:include "sections/meditation.edn"
-             :image "images/meditation.jpg"
-             :image-height "130vw"
-             :title "Meditation"
-             :id "meditation"}
-            {:include "sections/tradition.edn"
-             :image "images/tradition.jpg"
-             :image-height "65vw"
-             :title "Traditionen und Veranstaltungen"
-             :id "tradition"}
-            {:include "sections/advising.edn"
-             :image "images/buddha_bodhileaf.jpeg"
-             :image-height "60vw"
-             :title "Beratung und Seelsorge"
-             :id "advising"}
-            {:include "sections/environment.edn"
-             :image "images/environment.jpg"
-             :image-height "60vw"
-             :title "Umweltbewusstsein"
-             :id "environment"}]
+ :description "Schaut euch gerne unser aktuelles Programm an! Dort findet ihr alle regelmäßigen Termine für Meditation, Achtsamkeit, Beratung, Seminare, Vorträge und Ausbildungen. Für weitere Veranstaltungen halten wir euch unter dem Bereich „Events“ gesondert informiert."
+ :sections (let [{:keys [newbies
+                         coaching
+                         weekly_mindful
+                         vipassana
+                         mindful_weekend]} (:regular-events *site*)]
+             [{:include "sections/newbies.edn"
+               :image "images/samiddhi.jpg"
+               :image-height "65vw"
+               :title (:title newbies)
+               :id "newbies"}
+              {:include "sections/coaching.edn"
+               :image "images/samiddhi2.jpg"
+               :image-height "65vw"
+               :title (:title coaching)
+               :id "coaching"}
+              {:include "sections/weekly_mindful.edn"
+               :image "images/lotus.jpg"
+               :image-height "65vw"
+               :title (:title weekly_mindful)
+               :id "weekly_mindful"}
+              {:include "sections/vipassana.edn"
+               :image "images/vipassana.jpg"
+               :image-height "75vw"
+               :title (:title vipassana)
+               :id "vipassana"}
+              {:include "sections/mindful_weekend.edn"
+               :image "images/meditation_room.jpeg"
+               :image-height "65wvw"
+               :title (:title mindful_weekend)
+               :id "mindful_weekend"}])
  :intro [:section
          [:p "Willkommen in unserem Meditationszentrum in Bonn-Ippendorf!"]
-         [:p "Wir ermutigen und unterstützen alle Menschen dabei, ihre eigene Spiritualität zu entdecken und weiterzuentwickeln. Im Einklang mit der buddhistischen Lebensweise zeigen wir Wege auf, wie es uns gelingt, friedvoll und im Gleichgewicht mit uns selbst sowie unserer Umwelt zu leben – sowohl spirituell als auch materiell."]]
+         [:p "Wir ermutigen und unterstützen alle Menschen dabei, ihre eigene Spiritualität zu entdecken und weiterzuentwickeln. Im Einklang mit der buddhistischen Lebensweise zeigen wir Wege auf, wie es uns gelingt, friedvoll und im Gleichgewicht mit uns selbst sowie unserer Umwelt zu leben – sowohl spirituell als auch materiell."]
+         [:p "Schaut euch gerne unser aktuelles Programm an! Dort findet ihr alle regelmäßigen Termine für Meditation, Achtsamkeit, Beratung, Seminare, Vorträge und Ausbildungen. Für weitere Veranstaltungen halten wir euch unter dem Bereich " (link-to "events.html" "Events") " gesondert informiert."]
+         (include "covid19.edn")
+         (include "calendar.edn")]
  :content "sections.edn"}

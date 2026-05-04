@@ -1,5 +1,5 @@
 (list
- [:h3 "Freitags 19:00 - 21:00 Uhr"]
+ [:h3 "Freitags 18:00 - 20:00 Uhr"]
  [:p
   [:img.picture-left {:src (:image section)}]
   "Der Freitagabend ist der perfekte Zeitpunkt, um zu uns selbst zurückzukehren und alles, was in uns und um uns herum geschieht, zu erkennen und loszulassen. In jedem Moment verweilen wir im Frieden. An diesem Abend praktizieren wir etwa eine Stunde Sitz- und Gehmeditation, um unsere innere Einsicht zu schulen."]

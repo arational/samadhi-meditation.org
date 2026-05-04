@@ -47,7 +47,7 @@
                                   (:regular-events *site*)))]
                  [:a {:href (str (case type
                                    :special "events.html#"
-                                   :regular "programm.html#")
+                                   :regular "index.html#")
                                  id)
                       :class (name type)}
                   (str (day-of-month day))]
